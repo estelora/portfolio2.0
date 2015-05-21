@@ -1,15 +1,23 @@
+.head {
+
+}
+
 .copy {
-  font-size: 60px;
-  font-family: $display;
-  padding: .5em;
-}
-.headshot {
-  margin-top: 1em;
+  font-size: 35px;
+  font-weight: $light;
+  font-family: $sans-serif;
+  padding: 1em 5em 0;
+  line-height: 40px;
 }
 
-.headshot-img {
-  width: 150px;
+.p2 {
+  padding-top: 1em;
+}
+
+.about-fox {
+  width: 230px;
   height: 100%;
-  border-radius: 3em;
-
+  float: right;
+  padding: 0 5em 1em 0;
+  opacity: .8;
 }
