@@ -101,18 +101,16 @@ a.nav {
 .hero {
   font-family: $display;
   padding-bottom: 3em;
-  padding-top: 5em;
-  margin-left: auto;
-  margin-right:auto;
-  @include outer-container;
+  padding-top: 7em;
+  @include shift(0.8);
 }
 
 
 .story-curious {
-  @include span-columns(3);
+  @include span-columns(2.65);
   @include shift(.18);
   @include omega;
-  padding: 1em .5em;
+  padding: 1em 0 0 0;
   border: 1px orange double;
   background-color: orange;
   -webkit-box-shadow: $default-img-shadow-safari;
@@ -132,19 +130,18 @@ a.nav {
   .story-pic {
     width: 200px;
     height: auto;
-    margin-right: auto;
-    margin-left: auto;
+    padding: 0;
     background-color: $white;
     -webkit-box-shadow: $default-img-shadow-safari;
     -moz-box-shadow: $default-img-shadow-moz;
     box-shadow: $default-img-shadow-chrome;
-    @include shift(.9);
+    @include shift(1);
 
   }
 }
 
 .story-travel {
-  @include span-columns(4);
+  @include span-columns(3.65);
   @include shift(.18);
   @include omega;
   padding: 1em .5em;

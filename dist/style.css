@@ -1973,25 +1973,17 @@ a.nav {
 .hero {
   font-family: 'Londrina Solid', cursive;
   padding-bottom: 3em;
-  padding-top: 5em;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto; }
-  .hero::after {
-    clear: both;
-    content: "";
-    display: table; }
+  padding-top: 7em;
+  margin-left: 16.93624%; }
 
 .story-curious {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 23.23176%;
+  width: 20.24633%;
   margin-left: 1.53536%;
   margin-right: 0;
-  padding: 1em .5em;
+  padding: 1em 0 0 0;
   border: 1px orange double;
   background-color: orange;
   -webkit-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
@@ -2009,19 +2001,18 @@ a.nav {
   .story-curious .story-pic {
     width: 200px;
     height: auto;
-    margin-right: auto;
-    margin-left: auto;
+    padding: 0;
     background-color: #FFFFFF;
     -webkit-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
     box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-    margin-left: 7.67682%; }
+    margin-left: 8.5298%; }
 
 .story-travel {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 31.76157%;
+  width: 28.77613%;
   margin-left: 1.53536%;
   margin-right: 0;
   padding: 1em .5em;
