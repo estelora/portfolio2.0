@@ -4,8 +4,6 @@
 
 * {
   margin: 0;
-
-
 }
 
 html, body {
@@ -29,24 +27,35 @@ a:active {
     text-decoration: none;
 }
 
-
-.footer  {
-  height: 110px;
-}
-
 .footer {
-  background: orange;
+  height: 110px;
+  font-family: $sans-serif;
+  background-color: $blush;
+  background-image: url("images/ricepaper2.png");
+  padding: 1%;
   position: absolute;
   bottom: 0;
   width: 100%;
+  -webkit-box-shadow: $top-shadow-safari;
+  -moz-box-shadow: $top-shadow-moz;
+  box-shadow: $top-shadow;
 }
 
+.footer-fox {
+  width: 90px;
+  height: 100%;
+  opacity: .9;
+  margin-left: 0.5%;
+}
 
 .info-header {
   height: 110px;
   background-color: $white;
   background-image: url("images/ricepaper2.png");
   padding: 0.358%;
+  -webkit-box-shadow: $default-shadow-safari;
+  -moz-box-shadow: $default-shadow-moz;
+  box-shadow: $default-shadow;
 }
 
 .title {
@@ -55,7 +64,6 @@ a:active {
   letter-spacing: -1px;
   @include span-columns(5);
   @include shift(.1);
-
 }
 
 .home-link {
@@ -66,7 +74,6 @@ a:active {
  font-family: $display;
  font-size: 60px;
  color: $neutral;
-
  line-height: 1.3em;
  text-shadow: $default-text-shadow;
 }
@@ -76,7 +83,6 @@ a:active {
   font-family: $sans-serif;
   letter-spacing: .15px;
   color: $dark-gray;
-
 }
 
 .site-nav {
@@ -100,14 +106,12 @@ a.nav {
 
 .hero {
   font-family: $display;
-  padding-bottom: 3em;
-  padding-top: 7em;
-  @include shift(0.8);
+  @include shift(.4);
+  padding-top: 4%;
 }
 
-
 .story-curious {
-  @include span-columns(2.65);
+  @include span-columns(3.15);
   @include shift(.18);
   @include omega;
   padding: 1em 0 0 0;
@@ -118,33 +122,31 @@ a.nav {
   box-shadow: $default-img-shadow-chrome;
 
   .tagline {
-    font-size: 20px;
+    font-size: 24px;
     font-family: $sans-serif;
     font-weight: $thin;
     text-align: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
-
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
   }
 
   .story-pic {
-    width: 200px;
+    width: 250px;
     height: auto;
     padding: 0;
     background-color: $white;
     -webkit-box-shadow: $default-img-shadow-safari;
     -moz-box-shadow: $default-img-shadow-moz;
     box-shadow: $default-img-shadow-chrome;
-    @include shift(1);
-
+    @include shift(.9);
   }
 }
 
 .story-travel {
-  @include span-columns(3.65);
+  @include span-columns(4.2);
   @include shift(.18);
   @include omega;
-  padding: 1em .5em;
+  padding: 1em .5em .5em;
   border: 1px orange double;
   background-color: orange;
   -webkit-box-shadow: $default-img-shadow-safari;
@@ -152,17 +154,16 @@ a.nav {
   box-shadow: $default-img-shadow-chrome;
 
   .tagline {
-    font-size: 20px;
+    font-size: 24px;
     font-family: $sans-serif;
     font-weight: $thin;
     text-align: center;
-    padding-top: 2em;
-    padding-bottom: 1em;
-
+    padding-top: .5em;
+    padding-bottom: 0.5em;
   }
 
   .story-pic {
-    width: 300px;
+    width: 350px;
     height: auto;
     background-color: $white;
     margin-left: 2%;
@@ -171,14 +172,5 @@ a.nav {
     -moz-box-shadow: $default-img-shadow-moz;
     box-shadow: $default-img-shadow-chrome;
     @include shift(.5);
-
   }
-}
-
-.footer {
-  font-family: $sans-serif;
-  background-color: $blush;
-  background-image: url("images/ricepaper2.png");
-  margin-top: 2em;
-  @include pad();
 }

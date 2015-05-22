@@ -1901,19 +1901,32 @@ a:active {
   text-decoration: none; }
 
 .footer {
-  height: 110px; }
-
-.footer {
-  background: orange;
+  height: 110px;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #F5D2CC;
+  background-image: url("images/ricepaper2.png");
+  padding: 1%;
   position: absolute;
   bottom: 0;
-  width: 100%; }
+  width: 100%;
+  -webkit-box-shadow: 0px -1px 1px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px -1px 1px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px -1px 1px 0px rgba(0, 0, 0, 0.5); }
+
+.footer-fox {
+  width: 90px;
+  height: 100%;
+  opacity: .9;
+  margin-left: 0.5%; }
 
 .info-header {
   height: 110px;
   background-color: #FFFFFF;
   background-image: url("images/ricepaper2.png");
-  padding: 0.358%; }
+  padding: 0.358%;
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5); }
 
 .title {
   font-family: 'Josefin Sans', sans-serif;
@@ -1972,15 +1985,14 @@ a.nav {
 
 .hero {
   font-family: 'Londrina Solid', cursive;
-  padding-bottom: 3em;
-  padding-top: 7em;
-  margin-left: 16.93624%; }
+  margin-left: 8.46812%;
+  padding-top: 4%; }
 
 .story-curious {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 20.24633%;
+  width: 24.51123%;
   margin-left: 1.53536%;
   margin-right: 0;
   padding: 1em 0 0 0;
@@ -1992,30 +2004,30 @@ a.nav {
   .story-curious:last-child {
     margin-right: 0; }
   .story-curious .tagline {
-    font-size: 20px;
+    font-size: 24px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 100;
     text-align: center;
-    padding-top: 1em;
-    padding-bottom: 1em; }
+    padding-top: 0.5em;
+    padding-bottom: 0.5em; }
   .story-curious .story-pic {
-    width: 200px;
+    width: 250px;
     height: auto;
     padding: 0;
     background-color: #FFFFFF;
     -webkit-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
     box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-    margin-left: 8.5298%; }
+    margin-left: 7.67682%; }
 
 .story-travel {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 28.77613%;
+  width: 33.46753%;
   margin-left: 1.53536%;
   margin-right: 0;
-  padding: 1em .5em;
+  padding: 1em .5em .5em;
   border: 1px orange double;
   background-color: orange;
   -webkit-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
@@ -2024,14 +2036,14 @@ a.nav {
   .story-travel:last-child {
     margin-right: 0; }
   .story-travel .tagline {
-    font-size: 20px;
+    font-size: 24px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 100;
     text-align: center;
-    padding-top: 2em;
-    padding-bottom: 1em; }
+    padding-top: .5em;
+    padding-bottom: 0.5em; }
   .story-travel .story-pic {
-    width: 300px;
+    width: 350px;
     height: auto;
     background-color: #FFFFFF;
     margin-left: 2%;
@@ -2041,29 +2053,15 @@ a.nav {
     box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
     margin-left: 4.2649%; }
 
-.footer {
-  font-family: 'Josefin Sans', sans-serif;
-  background-color: #F5D2CC;
-  background-image: url("images/ricepaper2.png");
-  margin-top: 2em;
-  padding: 2.35765%; }
-
 .copy {
   font-size: 35px;
   font-weight: 300;
   font-family: 'Josefin Sans', sans-serif;
-  padding: 1em 5em 0;
+  padding: 8% 12% 0;
   line-height: 40px; }
 
 .p2 {
-  padding-top: 1em; }
-
-.about-fox {
-  width: 230px;
-  height: 100%;
-  float: right;
-  padding: 0 5em 1em 0;
-  opacity: .8; }
+  padding-top: .5em; }
 
 .contact-info {
   font-family: 'Josefin Sans', sans-serif;
