@@ -1,13 +1,25 @@
 .head {
-
+ font-family: $display;
+ font-size: 50px;
+ color: $white;
+ text-shadow: $default-text-shadow;
+ line-height: 60px;
+ margin-left: 1%;
+ margin-bottom: 3%;
 }
 
 .copy {
-  font-size: 35px;
+  font-size: 30px;
+  text-shadow: center;
   font-weight: $light;
   font-family: $sans-serif;
-  padding: 8% 12% 0;
+  margin: 6% 20% 0;
   line-height: 40px;
+  background-color: $neutral-light;
+  -webkit-box-shadow: $default-img-shadow-safari;
+  -moz-box-shadow: $default-img-shadow-moz;
+  box-shadow: $default-img-shadow-chrome;
+  @include pad();
 }
 
 .p2 {

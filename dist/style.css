@@ -279,8 +279,7 @@ a.nav {
   margin-left: 1.53536%;
   margin-right: 0;
   padding: 1em 0 0 0;
-  border: 1px orange double;
-  background-color: orange;
+  background-color: #ff6e24;
   -webkit-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
   box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75); }
@@ -311,8 +310,7 @@ a.nav {
   margin-left: 1.53536%;
   margin-right: 0;
   padding: 1em .5em .5em;
-  border: 1px orange double;
-  background-color: orange;
+  background-color: #ff6e24;
   -webkit-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
   box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75); }
@@ -336,12 +334,27 @@ a.nav {
     box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
     margin-left: 4.2649%; }
 
+.head {
+  font-family: 'Londrina Solid', cursive;
+  font-size: 50px;
+  color: #FFFFFF;
+  text-shadow: 2px 2px 0.5px #000000;
+  line-height: 60px;
+  margin-left: 1%;
+  margin-bottom: 3%; }
+
 .copy {
-  font-size: 35px;
+  font-size: 30px;
+  text-shadow: center;
   font-weight: 300;
   font-family: 'Josefin Sans', sans-serif;
-  padding: 8% 12% 0;
-  line-height: 40px; }
+  margin: 6% 20% 0;
+  line-height: 40px;
+  background-color: #ff6e24;
+  -webkit-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
+  padding: 2.35765%; }
 
 .p2 {
   padding-top: .5em; }

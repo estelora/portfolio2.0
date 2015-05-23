@@ -115,8 +115,7 @@ a.nav {
   @include shift(.18);
   @include omega;
   padding: 1em 0 0 0;
-  border: 1px orange double;
-  background-color: orange;
+  background-color: $neutral-light;
   -webkit-box-shadow: $default-img-shadow-safari;
   -moz-box-shadow: $default-img-shadow-moz;
   box-shadow: $default-img-shadow-chrome;
@@ -147,8 +146,7 @@ a.nav {
   @include shift(.18);
   @include omega;
   padding: 1em .5em .5em;
-  border: 1px orange double;
-  background-color: orange;
+  background-color: $neutral-light;
   -webkit-box-shadow: $default-img-shadow-safari;
   -moz-box-shadow: $default-img-shadow-moz;
   box-shadow: $default-img-shadow-chrome;
