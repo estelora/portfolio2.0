@@ -44,8 +44,29 @@ a:active {
 .footer-fox {
   width: 90px;
   height: 100%;
-  opacity: .9;
-  float: right;
+  opacity: .95;
+  float: left;
+  margin-left: .6%;
+}
+
+.contact {
+  margin-top: 2.25%;
+
+  .contact-spacing {
+    @include shift(.2);
+  }
+    .contact-icon {
+      color: $neutral-light;
+    }
+
+    .contact-copy {
+      color: $dark-gray;
+      font-weight: $light;
+      font-size: 20px;
+      // margin-bottom: 3px;
+      // line-height: 0;
+
+  }
 }
 
 .info-header {
@@ -96,11 +117,11 @@ a:active {
 a.nav {
   text-decoration: none;
   color: $dark-gray;
-  font-size: 20px;
-  text-align: right;
+  font-size: 24px;
+  text-align: center;
   font-weight: $light;
   float: right;
-  @include span-columns(2.3 of 5);
+  @include span-columns(2.4 of 5);
   @include omega;
 }
 

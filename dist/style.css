@@ -199,8 +199,20 @@ a:active {
 .footer-fox {
   width: 90px;
   height: 100%;
-  opacity: .9;
-  float: right; }
+  opacity: .95;
+  float: left;
+  margin-left: .6%; }
+
+.contact {
+  margin-top: 2.25%; }
+  .contact .contact-spacing {
+    margin-left: 1.70596%; }
+  .contact .contact-icon {
+    color: #ff6e24; }
+  .contact .contact-copy {
+    color: #414141;
+    font-weight: 300;
+    font-size: 20px; }
 
 .info-header {
   height: 110px;
@@ -254,14 +266,14 @@ a:active {
 a.nav {
   text-decoration: none;
   color: #414141;
-  font-size: 20px;
-  text-align: right;
+  font-size: 24px;
+  text-align: center;
   font-weight: 300;
   float: right;
   float: left;
   display: block;
   margin-right: 5.85151%;
-  width: 42.84019%;
+  width: 44.95722%;
   margin-right: 0; }
   a.nav:last-child {
     margin-right: 0; }
