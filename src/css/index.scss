@@ -100,7 +100,7 @@ a.nav {
   text-align: right;
   font-weight: $light;
   float: right;
-  @include span-columns(1.8 of 5);
+  @include span-columns(2.3 of 5);
   @include omega;
 }
 
@@ -116,9 +116,6 @@ a.nav {
   @include omega;
   padding: 1em 0 0 0;
   background-color: $neutral-light;
-  -webkit-box-shadow: $default-img-shadow-safari;
-  -moz-box-shadow: $default-img-shadow-moz;
-  box-shadow: $default-img-shadow-chrome;
 
   .tagline {
     font-size: 24px;
@@ -134,9 +131,7 @@ a.nav {
     height: auto;
     padding: 0;
     background-color: $white;
-    -webkit-box-shadow: $default-img-shadow-safari;
-    -moz-box-shadow: $default-img-shadow-moz;
-    box-shadow: $default-img-shadow-chrome;
+
     @include shift(.9);
   }
 }
@@ -147,9 +142,7 @@ a.nav {
   @include omega;
   padding: 1em .5em .5em;
   background-color: $neutral-light;
-  -webkit-box-shadow: $default-img-shadow-safari;
-  -moz-box-shadow: $default-img-shadow-moz;
-  box-shadow: $default-img-shadow-chrome;
+
 
   .tagline {
     font-size: 24px;
@@ -166,9 +159,12 @@ a.nav {
     background-color: $white;
     margin-left: 2%;
     margin-right: .1em;
-    -webkit-box-shadow: $default-img-shadow-safari;
-    -moz-box-shadow: $default-img-shadow-moz;
-    box-shadow: $default-img-shadow-chrome;
     @include shift(.5);
   }
+}
+
+.story {
+  -webkit-box-shadow: $default-img-shadow-safari;
+  -moz-box-shadow: $default-img-shadow-moz;
+  box-shadow: $default-img-shadow-chrome;
 }

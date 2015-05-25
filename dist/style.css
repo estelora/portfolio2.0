@@ -261,7 +261,7 @@ a.nav {
   float: left;
   display: block;
   margin-right: 5.85151%;
-  width: 32.25504%;
+  width: 42.84019%;
   margin-right: 0; }
   a.nav:last-child {
     margin-right: 0; }
@@ -279,10 +279,7 @@ a.nav {
   margin-left: 1.53536%;
   margin-right: 0;
   padding: 1em 0 0 0;
-  background-color: #ff6e24;
-  -webkit-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-  box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75); }
+  background-color: #ff6e24; }
   .story-curious:last-child {
     margin-right: 0; }
   .story-curious .tagline {
@@ -297,9 +294,6 @@ a.nav {
     height: auto;
     padding: 0;
     background-color: #FFFFFF;
-    -webkit-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-    box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
     margin-left: 7.67682%; }
 
 .story-travel {
@@ -310,10 +304,7 @@ a.nav {
   margin-left: 1.53536%;
   margin-right: 0;
   padding: 1em .5em .5em;
-  background-color: #ff6e24;
-  -webkit-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-  box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75); }
+  background-color: #ff6e24; }
   .story-travel:last-child {
     margin-right: 0; }
   .story-travel .tagline {
@@ -329,10 +320,12 @@ a.nav {
     background-color: #FFFFFF;
     margin-left: 2%;
     margin-right: .1em;
-    -webkit-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-    box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
     margin-left: 4.2649%; }
+
+.story {
+  -webkit-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75); }
 
 .head {
   font-family: 'Londrina Solid', cursive;
@@ -358,23 +351,6 @@ a.nav {
 
 .p2 {
   padding-top: .5em; }
-
-.contact-info {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 55px;
-  font-weight: 600;
-  padding: 1em 0 0;
-  color: #414141; }
-
-.copy-info {
-  font-size: 35px;
-  font-weight: 400;
-  font-family: 'Josefin Sans', sans-serif;
-  padding: .5em 0 0;
-  margin-right: auto;
-  margin-left: auto;
-  width: 48%;
-  line-height: 40px; }
 
 /*------------------------------------*\
     #INSPECT
