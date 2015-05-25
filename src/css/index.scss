@@ -63,9 +63,6 @@ a:active {
       color: $dark-gray;
       font-weight: $light;
       font-size: 20px;
-      // margin-bottom: 3px;
-      // line-height: 0;
-
   }
 }
 
@@ -110,8 +107,8 @@ a:active {
   margin-top: 45px;
   font-family: $sans-serif;
   float: right !important;
-  @include span-columns(5);
   padding-right: 1em;
+  @include span-columns(5);
 }
 
 a.nav {
@@ -128,15 +125,15 @@ a.nav {
 .hero {
   font-family: $display;
   @include shift(.4);
-  padding-top: 4%;
+  padding-top: 3%;
 }
 
 .story-curious {
+  padding: 1em 0.5em 0em 1.75em;
+  background-color: $neutral-light;
   @include span-columns(3.15);
   @include shift(.18);
   @include omega;
-  padding: 1em 0 0 0;
-  background-color: $neutral-light;
 
   .tagline {
     font-size: 24px;
@@ -148,39 +145,32 @@ a.nav {
   }
 
   .story-pic {
-    width: 250px;
+    width: 90%;
     height: auto;
-    padding: 0;
     background-color: $white;
-
-    @include shift(.9);
   }
 }
 
 .story-travel {
+  padding: 1em 0em 0em 1.5em;
+  background-color: $neutral-light;
   @include span-columns(4.2);
   @include shift(.18);
   @include omega;
-  padding: 1em .5em .5em;
-  background-color: $neutral-light;
-
 
   .tagline {
     font-size: 24px;
     font-family: $sans-serif;
     font-weight: $thin;
     text-align: center;
-    padding-top: .5em;
+    padding-top: 0.5em;
     padding-bottom: 0.5em;
   }
 
   .story-pic {
-    width: 350px;
+    width: 90%;
     height: auto;
     background-color: $white;
-    margin-left: 2%;
-    margin-right: .1em;
-    @include shift(.5);
   }
 }
 
