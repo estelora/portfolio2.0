@@ -54,7 +54,7 @@
 }
 .project-img {
   float: left;
-  @include span-columns(5.9);
+  @include span-columns(5.65);
 
   .flower-screenshot {
     width: 100%;
@@ -67,10 +67,10 @@
   float: left;
   border: 1px dashed blue;
   font-size: 18px;
+  line-height: 24px;
   font-family: $sans-serif;
-  @include span-columns(6.1);
-
-  .git {
-    padding: 3px;
+  @include span-columns(6.3);
+  .icon-small {
+    padding: 3px 1px 3px 3px;
   }
 }

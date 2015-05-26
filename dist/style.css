@@ -430,7 +430,7 @@ a.nav {
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 47.96819%; }
+  width: 45.83574%; }
   .project-img:last-child {
     margin-right: 0; }
   .project-img .flower-screenshot {
@@ -442,15 +442,16 @@ a.nav {
   float: left;
   border: 1px dashed blue;
   font-size: 18px;
+  line-height: 24px;
   font-family: 'Josefin Sans', sans-serif;
   float: left;
   display: block;
   margin-right: 2.35765%;
-  width: 49.67415%; }
+  width: 51.38012%; }
   .project-info:last-child {
     margin-right: 0; }
-  .project-info .git {
-    padding: 3px; }
+  .project-info .icon-small {
+    padding: 3px 1px 3px 3px; }
 
 .social-icons h4 {
   display: inline-block;
