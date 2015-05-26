@@ -10,27 +10,27 @@
 
 .inspect-header {
   text-align: center;
-  background-color: $white-gray;
-  padding: 10px .5% 1%;
+  padding: 5px .5% 1%;
   @include span-columns(11);
   @include shift(.5);
 }
 
 .portfolio-spacer {
-  margin-top: 3%;
+  margin-top: 2%;
 }
 
 .portfolio-head {
   font-family: $display;
-  color: $neutral;
+  color: $black;
   font-size: 50px;
-  margin-left: .75%;
   float: left;
+  margin-left: 3px;
 }
 
 .inspect-fox {
-  width: 100px;
+  width: 90px;
   height: 100%;
   float: left;
+  background-color: $white-gray;
   @include shift(3.8);
 }

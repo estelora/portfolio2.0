@@ -169,7 +169,8 @@ table {
   margin: 0; }
 
 html, body {
-  height: 100%; }
+  height: 100%;
+  background-color: #f8f8f8; }
 
 a:link {
   text-decoration: none; }
@@ -378,8 +379,7 @@ a.nav {
 
 .inspect-header {
   text-align: center;
-  background-color: #f8f8f8;
-  padding: 10px .5% 1%;
+  padding: 5px .5% 1%;
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -389,19 +389,20 @@ a.nav {
     margin-right: 0; }
 
 .portfolio-spacer {
-  margin-top: 3%; }
+  margin-top: 2%; }
 
 .portfolio-head {
   font-family: 'Londrina Solid', cursive;
-  color: #FF6702;
+  color: #000000;
   font-size: 50px;
-  margin-left: .75%;
-  float: left; }
+  float: left;
+  margin-left: 3px; }
 
 .inspect-fox {
-  width: 100px;
+  width: 90px;
   height: 100%;
   float: left;
+  background-color: #f8f8f8;
   margin-left: 32.41326%; }
 
 .social-icons h4 {
