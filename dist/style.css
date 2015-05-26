@@ -450,8 +450,14 @@ a.nav {
   width: 51.38012%; }
   .project-info:last-child {
     margin-right: 0; }
+  .project-info .project-link {
+    text-decoration: none;
+    color: #000000; }
   .project-info .icon-small {
     padding: 3px 1px 3px 3px; }
+    .project-info .icon-small .link-info {
+      font-weight: 300;
+      font-size: 20px; }
 
 .social-icons h4 {
   display: inline-block;

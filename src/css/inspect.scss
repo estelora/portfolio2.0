@@ -70,7 +70,15 @@
   line-height: 24px;
   font-family: $sans-serif;
   @include span-columns(6.3);
+  .project-link {
+    text-decoration: none;
+    color: $black;
+  }
   .icon-small {
     padding: 3px 1px 3px 3px;
+    .link-info {
+      font-weight: $light;
+      font-size: 20px;
+    }
   }
 }
