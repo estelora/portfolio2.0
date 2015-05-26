@@ -170,7 +170,7 @@ table {
 
 html, body {
   height: 100%;
-  background-color: #f8f8f8; }
+  background-color: #FFFFFF; }
 
 a:link {
   text-decoration: none; }
@@ -402,7 +402,7 @@ a.nav {
   width: 80px;
   height: 100%;
   float: left;
-  background-color: #f8f8f8;
+  background-color: #FFFFFF;
   margin-left: 32.41326%; }
 
 .project {
