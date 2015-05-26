@@ -183,6 +183,12 @@ a:hover {
 a:active {
   text-decoration: none; }
 
+.opaque {
+  opacity: 0.9; }
+
+.text-shadow {
+  text-shadow: 2px 2px 0.5px #000000; }
+
 .footer {
   height: 110px;
   font-family: 'Josefin Sans', sans-serif;
@@ -199,7 +205,6 @@ a:active {
 .footer-fox {
   width: 90px;
   height: 100%;
-  opacity: .95;
   float: left;
   margin-left: .6%; }
 
@@ -242,8 +247,7 @@ a:active {
   font-family: 'Londrina Solid', cursive;
   font-size: 60px;
   color: #FF6702;
-  line-height: 1.3em;
-  text-shadow: 2px 2px 0.5px #000000; }
+  line-height: 1.3em; }
 
 .role {
   font-size: 20px;
@@ -338,7 +342,6 @@ a.nav {
   font-family: 'Londrina Solid', cursive;
   font-size: 50px;
   color: #FFFFFF;
-  text-shadow: 2px 2px 0.5px #000000;
   line-height: 60px;
   margin-left: 1%;
   margin-bottom: 3%; }
@@ -362,9 +365,44 @@ a.nav {
 /*------------------------------------*\
     #INSPECT
 \*------------------------------------*/
+.portfolio-content {
+  padding: 1% 1% 1%;
+  margin-top: 2px;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  .portfolio-content::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.inspect-header {
+  text-align: center;
+  background-color: #f8f8f8;
+  padding: 10px .5% 1%;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 91.4702%;
+  margin-left: 4.2649%; }
+  .inspect-header:last-child {
+    margin-right: 0; }
+
+.portfolio-spacer {
+  margin-top: 3%; }
+
+.portfolio-head {
+  font-family: 'Londrina Solid', cursive;
+  color: #FF6702;
+  font-size: 50px;
+  margin-left: .75%;
+  float: left; }
+
 .inspect-fox {
-  width: 300px;
-  height: 100%; }
+  width: 100px;
+  height: 100%;
+  float: left;
+  margin-left: 32.41326%; }
 
 .social-icons h4 {
   display: inline-block;

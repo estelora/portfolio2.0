@@ -2,8 +2,35 @@
     #INSPECT
 \*------------------------------------*/
 
-.inspect-fox {
-  width: 300px;
-  height: 100%;
+.portfolio-content {
+ padding: 1% 1% 1%;
+ margin-top: 2px;
+ @include outer-container;
+}
 
+.inspect-header {
+  text-align: center;
+  background-color: $white-gray;
+  padding: 10px .5% 1%;
+  @include span-columns(11);
+  @include shift(.5);
+}
+
+.portfolio-spacer {
+  margin-top: 3%;
+}
+
+.portfolio-head {
+  font-family: $display;
+  color: $neutral;
+  font-size: 50px;
+  margin-left: .75%;
+  float: left;
+}
+
+.inspect-fox {
+  width: 100px;
+  height: 100%;
+  float: left;
+  @include shift(3.8);
 }

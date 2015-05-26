@@ -27,6 +27,14 @@ a:active {
     text-decoration: none;
 }
 
+.opaque {
+  opacity: $translucent;
+}
+
+.text-shadow {
+  text-shadow: $default-text-shadow;
+}
+
 .footer {
   height: 110px;
   font-family: $sans-serif;
@@ -44,7 +52,6 @@ a:active {
 .footer-fox {
   width: 90px;
   height: 100%;
-  opacity: .95;
   float: left;
   margin-left: .6%;
 }
@@ -93,7 +100,7 @@ a:active {
  font-size: 60px;
  color: $neutral;
  line-height: 1.3em;
- text-shadow: $default-text-shadow;
+
 }
 
 .role {
