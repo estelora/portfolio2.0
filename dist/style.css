@@ -394,6 +394,7 @@ a.nav {
 .portfolio-head {
   font-family: 'Londrina Solid', cursive;
   color: #414141;
+  text-shadow: 2px 2px 0.5px #F5D2CC;
   font-size: 40px;
   float: left;
   margin-left: 3px; }
