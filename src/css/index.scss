@@ -74,6 +74,25 @@ a:active {
   }
 }
 
+a.contact-spacing:hover {
+  @include shift(.2);
+  
+  .contact-icon {
+    color: $neutral-light;
+    text-shadow: $contact-hover-shadow;
+    transition: 50ms;
+    -webkit-transition: 50ms;
+  }
+
+  .contact-copy {
+    color $black;
+    transition: 50ms;
+    -webkit-transition: 50ms;
+    font-size: 20px;
+
+  }
+}
+
 .info-header {
   height: 110px;
   background-color: $white;

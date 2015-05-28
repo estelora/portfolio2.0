@@ -220,6 +220,18 @@ a:active {
     font-weight: 300;
     font-size: 20px; }
 
+a.contact-spacing:hover .contact-icon {
+  color: #ff6e24;
+  text-shadow: .75px .75px 0.3px #414141;
+  transition: 30ms;
+  -webkit-transition: 30ms; }
+a.contact-spacing:hover .contact-copy {
+  color: #414141;
+  transition: 30ms;
+  -webkit-transition: 30ms;
+  font-size: 20px;
+  font-weight: 400; }
+
 .info-header {
   height: 110px;
   background-color: #FFFFFF;
@@ -312,7 +324,7 @@ a.nav:hover {
   float: right;
   transition: 300ms;
   -webkit-transition: 300ms;
-  text-shadow: .75px .75px 0.3px #FF6702;
+  text-shadow: .75px .75px 0.3px #414141;
   float: left;
   display: block;
   margin-right: 5.85151%;
