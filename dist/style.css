@@ -241,8 +241,27 @@ a:active {
   .title:last-child {
     margin-right: 0; }
 
-.home-link {
+a.home-link {
   text-decoration: none; }
+
+a.home-link:hover .name {
+  font-family: 'Londrina Solid', cursive;
+  font-size: 60px;
+  color: #FF6702;
+  line-height: 1.3em;
+  transition: 30ms;
+  -webkit-transition: 30ms;
+  opacity: 0.75; }
+a.home-link:hover .role {
+  font-size: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: .15px;
+  color: #414141;
+  transition: 30ms;
+  -webkit-transition: 30ms;
+  transition: 30ms;
+  -webkit-transition: 30ms;
+  opacity: 0.75; }
 
 .name {
   font-family: 'Londrina Solid', cursive;

@@ -92,8 +92,33 @@ a:active {
   @include shift(.1);
 }
 
-.home-link {
+a.home-link {
   text-decoration: none;
+}
+
+a.home-link:hover {
+  .name {
+   font-family: $display;
+   font-size: 60px;
+   color: $neutral;
+   line-height: 1.3em;
+   transition: 30ms;
+   -webkit-transition: 30ms;
+   opacity: $lighter;
+  }
+
+  .role {
+    font-size: 20px;
+    font-family: $sans-serif;
+    letter-spacing: .15px;
+    color: $dark-gray;
+    transition: 30ms;
+    -webkit-transition: 30ms;
+    transition: 30ms;
+    -webkit-transition: 30ms;
+    opacity: $lighter;
+  }
+
 }
 
 .name {
