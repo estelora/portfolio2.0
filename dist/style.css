@@ -394,7 +394,7 @@ a.nav {
 .portfolio-head {
   font-family: 'Londrina Solid', cursive;
   color: #414141;
-  text-shadow: 2px 2px 0.5px #F5D2CC;
+  text-shadow: 1.5px 1.5px 0.5px #F5D2CC;
   font-size: 40px;
   float: left;
   margin-left: 3px; }
@@ -421,7 +421,7 @@ a.nav {
   .project-name .project-link {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
-    color: #000000;
+    color: #414141;
     font-size: 30px;
     text-decoration: none; }
 
@@ -454,6 +454,8 @@ a.nav {
     color: #000000; }
   .project-info .icon-small {
     padding: 3px 1px 3px 3px; }
+    .project-info .icon-small .project-icon {
+      color: #414141; }
     .project-info .icon-small .link-info {
       font-weight: 300;
       font-size: 20px; }

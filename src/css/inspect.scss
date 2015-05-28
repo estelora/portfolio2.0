@@ -46,7 +46,7 @@
   .project-link {
     font-family: $sans-serif;
     font-weight: $bold;
-    color: $black;
+    color: $dark-gray;
     font-size: 30px;
     text-decoration: none;
   }
@@ -74,6 +74,9 @@
   }
   .icon-small {
     padding: 3px 1px 3px 3px;
+    .project-icon {
+      color: $dark-gray;
+    }
     .link-info {
       font-weight: $light;
       font-size: 20px;
