@@ -154,10 +154,10 @@ table {
   border-spacing: 0; }
 
 /*------------------------------------*\
-    #VARIABLES
+    #COLORS
 \*------------------------------------*/
 /*------------------------------------*\
-    #COLORS
+    #VARIABLES
 \*------------------------------------*/
 /*------------------------------------*\
     #FONTS
@@ -281,6 +281,25 @@ a.nav {
   width: 44.95722%;
   margin-right: 0; }
   a.nav:last-child {
+    margin-right: 0; }
+
+a.nav:hover {
+  text-decoration: none;
+  color: #414141;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 26px;
+  text-align: center;
+  font-weight: 400;
+  float: right;
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  text-shadow: .75px .75px 0.3px #FF6702;
+  float: left;
+  display: block;
+  margin-right: 5.85151%;
+  width: 44.95722%;
+  margin-right: 0; }
+  a.nav:hover:last-child {
     margin-right: 0; }
 
 .hero {

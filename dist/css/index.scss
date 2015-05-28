@@ -130,6 +130,22 @@ a.nav {
   @include omega;
 }
 
+a.nav:hover {
+  text-decoration: none;
+  color: $dark-gray;
+  font-family: $sans-serif;
+  font-size: 26px;
+  text-align: center;
+  font-weight: $normal;
+  float: right;
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  text-shadow: $nav-hover-shadow;
+  @include span-columns(2.4 of 5);
+  @include omega;
+}
+
+
 .hero {
   font-family: $display;
   @include shift(.4);
