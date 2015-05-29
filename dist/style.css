@@ -229,6 +229,7 @@ a.contact-spacing:hover {
     -webkit-transition: 50ms; }
   a.contact-spacing:hover .contact-copy {
     color: #000000;
+    text-shadow: .75px .75px 0.3px #414141;
     transition: 50ms;
     -webkit-transition: 50ms;
     font-size: 20px; }
@@ -325,7 +326,7 @@ a.nav:hover {
   float: right;
   transition: 300ms;
   -webkit-transition: 300ms;
-  text-shadow: .75px .75px 0.3px #FF6702;
+  text-shadow: .75px .75px 0.3px #FFFFFF;
   float: left;
   display: block;
   margin-right: 5.85151%;

@@ -70,6 +70,7 @@ a.contact-spacing:hover {
   }
   .contact-copy {
     color: $black;
+    text-shadow: $contact-hover-shadow;
     transition: 50ms;
     -webkit-transition: 50ms;
     font-size: 20px;
