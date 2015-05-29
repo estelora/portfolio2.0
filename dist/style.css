@@ -259,20 +259,10 @@ a.home-link {
   text-decoration: none; }
 
 a.home-link:hover .name {
-  font-family: 'Londrina Solid', cursive;
-  font-size: 60px;
-  color: #FF6702;
-  line-height: 1.3em;
   transition: 30ms;
   -webkit-transition: 30ms;
   opacity: 0.75; }
 a.home-link:hover .role {
-  font-size: 20px;
-  font-family: 'Josefin Sans', sans-serif;
-  letter-spacing: 0.15px;
-  color: #414141;
-  transition: 30ms;
-  -webkit-transition: 30ms;
   transition: 30ms;
   -webkit-transition: 30ms;
   opacity: 0.75; }
@@ -390,6 +380,85 @@ a.nav:hover {
   -webkit-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
   box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75); }
+
+@media all and (max-width: 1100px) {
+  .hero {
+    margin-left: 6.82384%;
+    padding-top: 2%; }
+  .story-curious {
+    padding: 1em 0.5em 0 1.75em;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 25.36421%;
+    margin-left: 1.53536%;
+    margin-right: 0; }
+    .story-curious:last-child {
+      margin-right: 0; }
+    .story-curious .tagline {
+      margin-left: -4.2649%; }
+  .story-travel {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 35.17349%;
+    margin-left: 1.53536%;
+    margin-right: 0; }
+    .story-travel:last-child {
+      margin-right: 0; }
+    .story-travel .tagline {
+      margin-left: -4.2649%; } }
+
+@media all and (max-width: 920px) {
+  .hero {
+    margin-left: 4.2649%;
+    padding-top: 3%; }
+  .story-curious {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 26.64368%;
+    margin-left: 1.53536%;
+    margin-right: 0; }
+    .story-curious:last-child {
+      margin-right: 0; }
+    .story-curious .tagline {
+      font-size: 20px;
+      padding-top: .5em;
+      margin-left: -8.5298%; }
+  .story-travel {
+    padding: 1em 0 0 1.5em;
+    background-color: #ff6e24;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 36.02647%;
+    margin-left: 1.53536%;
+    margin-right: 0; }
+    .story-travel:last-child {
+      margin-right: 0; }
+    .story-travel .tagline {
+      font-size: 20px;
+      margin-left: -8.5298%; } }
+
+@media all and (max-width: 825px) {
+  .title {
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 1em;
+    letter-spacing: -1px;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%;
+    margin-left: 0.85298%; }
+    .title:last-child {
+      margin-right: 0; }
+  .name {
+    font-size: 56px; }
+  .role {
+    font-size: 16px;
+    letter-spacing: 0.05px;
+    padding-top: 5px; } }
 
 .head {
   font-family: 'Londrina Solid', cursive;

@@ -97,21 +97,11 @@ a.home-link {
 }
 a.home-link:hover {
   .name {
-    font-family: $display;
-    font-size: 60px;
-    color: $neutral;
-    line-height: 1.3em;
     transition: 30ms;
     -webkit-transition: 30ms;
     opacity: $lighter;
   }
   .role {
-    font-size: 20px;
-    font-family: $sans-serif;
-    letter-spacing: 0.15px;
-    color: $dark-gray;
-    transition: 30ms;
-    -webkit-transition: 30ms;
     transition: 30ms;
     -webkit-transition: 30ms;
     opacity: $lighter;
@@ -209,4 +199,77 @@ a.nav:hover {
   -webkit-box-shadow: $default-img-shadow-safari;
   -moz-box-shadow: $default-img-shadow-moz;
   box-shadow: $default-img-shadow-chrome;
+}
+
+
+@media all and (max-width:1100px) {
+  .hero {
+    @include shift(.8);
+    padding-top: 2%;
+  }
+  .story-curious {
+    padding: 1em 0.5em 0 1.75em;
+    @include span-columns(3.25);
+    @include shift(.18);
+    @include omega;
+    .tagline {
+      @include shift(-.5);
+    }
+  }
+  .story-travel {
+    @include span-columns(4.4);
+    @include shift(.18);
+    @include omega;
+    .tagline {
+      @include shift(-.5);
+    }
+  }
+}
+
+@media all and (max-width:920px) {
+  .hero {
+    @include shift(.5);
+    padding-top: 3%;
+  }
+  .story-curious {
+    @include span-columns(3.4);
+    @include shift(.18);
+    @include omega;
+    .tagline {
+      font-size: 20px;
+      padding-top: .5em;
+      @include shift(-1);
+    }
+  }
+  .story-travel {
+    padding: 1em 0 0 1.5em;
+    background-color: $neutral-light;
+    @include span-columns(4.5);
+    @include shift(.18);
+    @include omega;
+    .tagline {
+      font-size: 20px;
+      @include shift(-1);
+    }
+  }
+}
+
+
+@media all and (max-width:825px) {
+  .title {
+    font-family: $sans-serif;
+    padding-left: 1em;
+    letter-spacing: -1px;
+    @include span-columns(5);
+    @include shift(.1);
+  }
+  .name {
+    font-size: 56px;
+  }
+  .role {
+    font-size: 16px;
+    letter-spacing: 0.05px;
+    padding-top: 5px;
+  }
+
 }
