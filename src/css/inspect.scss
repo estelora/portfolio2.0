@@ -1,33 +1,29 @@
 /*------------------------------------*\
     #INSPECT
 \*------------------------------------*/
-
 .portfolio-content {
- padding: 1% 1% 1%;
- margin-top: 2px;
- @include outer-container;
+  padding: 1%;
+  margin-top: 2px;
+  @include outer-container;
 }
-
 .inspect-header {
   text-align: center;
-  padding: 5px .5% 1%;
+  padding: 5px 0.5% 1%;
   @include span-columns(11);
   @include shift(.5);
 }
-
 .portfolio-spacer {
   margin-top: 1.5%;
 }
-
 .portfolio-head {
   font-family: $display;
   color: $dark-gray;
+
   // text-shadow: $light-text-shadow;
   font-size: 45px;
   float: left;
   margin-left: 3px;
 }
-
 .inspect-fox {
   width: 80px;
   height: 100%;
@@ -43,36 +39,26 @@
 }
 .project-name {
   padding: 5px;
-
   .project-link {
     color: $black;
     font-family: $sans-serif;
     font-weight: $bold;
     font-size: 30px;
-
   }
-
 }
-
-
 .project-img {
   float: left;
   @include span-columns(5.65);
 }
-
 .flower-screenshot {
   width: 100%;
   height: auto;
 }
-
-
 a.site-link:hover {
   opacity: $lighter;
   transition: 200ms;
   webkit-transition: 200ms;
 }
-
-
 .project-info {
   padding: 4px;
   float: left;
@@ -80,7 +66,6 @@ a.site-link:hover {
   line-height: 30px;
   font-family: $sans-serif;
   @include span-columns(6.3);
-
   .icon-small {
     padding: 3px 1px 3px 3px;
     .project-icon {
@@ -93,36 +78,32 @@ a.site-link:hover {
     }
   }
 }
-
 a.project-link:hover {
   text-decoration: none !important;
   color: $dark-gray !important;
   text-shadow: $white-text-shadow !important;
   transition: 300ms;
   webkit-transition: 300ms;
-
- .icon-small{
-   padding: 3px 1px 3px 3px !important;
-   text-shadow: $white-text-shadow !important;
-   font-size: 10px;
-   transition: 300ms;
-   webkit-transition: 300ms;
-
-  .project-icon {
-    color: $dark-gray !important;
+  .icon-small {
+    padding: 0;
     text-shadow: $white-text-shadow !important;
     font-size: 10px;
     transition: 300ms;
     webkit-transition: 300ms;
+    .project-icon {
+      color: $dark-gray !important;
+      text-shadow: $white-text-shadow !important;
+      font-size: 10px;
+      transition: 300ms;
+      webkit-transition: 300ms;
+    }
+    .link-info {
+      font-weight: $normal !important;
+      font-size: 20px !important;
+      color: $dark-gray !important;
+      text-shadow: $white-text-shadow !important;
+      transition: 300ms;
+      webkit-transition: 300ms;
+    }
   }
-
-  .link-info{
-    font-weight: $normal !important;
-    font-size: 20px !important;
-    color: $dark-gray !important;
-    text-shadow: $white-text-shadow !important;
-    transition: 300ms;
-    webkit-transition: 300ms;
-  }
- }
 }

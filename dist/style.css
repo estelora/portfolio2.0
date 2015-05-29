@@ -188,7 +188,7 @@ a:active {
   opacity: 0.9; }
 
 .text-shadow {
-  text-shadow: 2px 2px 0.5px #000000; }
+  text-shadow: 2px 2px 0.5px #000; }
 
 .footer {
   height: 110px;
@@ -199,9 +199,9 @@ a:active {
   position: absolute;
   bottom: 0;
   width: 100%;
-  -webkit-box-shadow: 0px -1px 1px 0px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px -1px 1px 0px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px -1px 1px 0px rgba(0, 0, 0, 0.5); }
+  -webkit-box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.5); }
 
 .footer-fox {
   width: 90px;
@@ -224,12 +224,12 @@ a.contact-spacing:hover {
   margin-left: 1.70596%; }
   a.contact-spacing:hover .contact-icon {
     color: #ff6e24;
-    text-shadow: .75px .75px 0.3px #414141;
+    text-shadow: 0.75px 0.75px 0.3px #414141;
     transition: 50ms;
     -webkit-transition: 50ms; }
   a.contact-spacing:hover .contact-copy {
     color: #000000;
-    text-shadow: .75px .75px 0.3px #414141;
+    text-shadow: 0.75px 0.75px 0.3px #414141;
     transition: 50ms;
     -webkit-transition: 50ms;
     font-size: 20px; }
@@ -239,9 +239,9 @@ a.contact-spacing:hover {
   background-color: #FFFFFF;
   background-image: url("images/ricepaper2.png");
   padding: 0.358%;
-  -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5);
-  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.5); }
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5); }
 
 .title {
   font-family: 'Josefin Sans', sans-serif;
@@ -326,7 +326,7 @@ a.nav:hover {
   float: right;
   transition: 300ms;
   -webkit-transition: 300ms;
-  text-shadow: .75px .75px 0.3px #FFFFFF;
+  text-shadow: 0.75px 0.75px 0.3px #FFFFFF;
   float: left;
   display: block;
   margin-right: 5.85151%;
@@ -419,7 +419,7 @@ a.nav:hover {
     #INSPECT
 \*------------------------------------*/
 .portfolio-content {
-  padding: 1% 1% 1%;
+  padding: 1%;
   margin-top: 2px;
   max-width: 68em;
   margin-left: auto;
@@ -431,7 +431,7 @@ a.nav:hover {
 
 .inspect-header {
   text-align: center;
-  padding: 5px .5% 1%;
+  padding: 5px 0.5% 1%;
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -522,7 +522,7 @@ a.project-link:hover {
   transition: 300ms;
   webkit-transition: 300ms; }
   a.project-link:hover .icon-small {
-    padding: 3px 1px 3px 3px !important;
+    padding: 0;
     text-shadow: 1px 1px 0.5px #FFFFFF !important;
     font-size: 10px;
     transition: 300ms;
