@@ -16,14 +16,14 @@
 }
 
 .portfolio-spacer {
-  margin-top: 2%;
+  margin-top: 1.5%;
 }
 
 .portfolio-head {
   font-family: $display;
   color: $dark-gray;
-  text-shadow: $light-text-shadow;
-  font-size: 40px;
+  // text-shadow: $light-text-shadow;
+  font-size: 45px;
   float: left;
   margin-left: 3px;
 }
@@ -39,27 +39,39 @@
   padding: 1.5%;
   @include span-columns(10);
   @include shift(1);
+  text-decoration: none;
 }
 .project-name {
   padding: 5px;
 
   .project-link {
+    color: $black;
     font-family: $sans-serif;
     font-weight: $bold;
-    color: $dark-gray;
     font-size: 30px;
-    text-decoration: none;
+
   }
+
 }
+
+
 .project-img {
   float: left;
   @include span-columns(5.65);
-
-  .flower-screenshot {
-    width: 100%;
-    height: auto;
-  }
 }
+
+.flower-screenshot {
+  width: 100%;
+  height: auto;
+}
+
+
+a.site-link:hover {
+  opacity: $lighter;
+  transition: 200ms;
+  webkit-transition: 200ms;
+}
+
 
 .project-info {
   padding: 4px;
@@ -68,10 +80,7 @@
   line-height: 30px;
   font-family: $sans-serif;
   @include span-columns(6.3);
-  .project-link {
-    text-decoration: none;
-    color: $black;
-  }
+
   .icon-small {
     padding: 3px 1px 3px 3px;
     .project-icon {
@@ -80,6 +89,40 @@
     .link-info {
       font-weight: $light;
       font-size: 20px;
+      color: $dark-gray;
     }
   }
+}
+
+a.project-link:hover {
+  text-decoration: none !important;
+  color: $dark-gray !important;
+  text-shadow: $white-text-shadow !important;
+  transition: 300ms;
+  webkit-transition: 300ms;
+
+ .icon-small{
+   padding: 3px 1px 3px 3px !important;
+   text-shadow: $white-text-shadow !important;
+   font-size: 10px;
+   transition: 300ms;
+   webkit-transition: 300ms;
+
+  .project-icon {
+    color: $dark-gray !important;
+    text-shadow: $white-text-shadow !important;
+    font-size: 10px;
+    transition: 300ms;
+    webkit-transition: 300ms;
+  }
+
+  .link-info{
+    font-weight: $normal !important;
+    font-size: 20px !important;
+    color: $dark-gray !important;
+    text-shadow: $white-text-shadow !important;
+    transition: 300ms;
+    webkit-transition: 300ms;
+  }
+ }
 }

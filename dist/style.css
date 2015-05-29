@@ -207,7 +207,7 @@ a:active {
   width: 90px;
   height: 100%;
   float: left;
-  margin-left: .6%; }
+  margin-left: 0.6%; }
 
 .contact {
   margin-top: 2.25%; }
@@ -220,17 +220,18 @@ a:active {
     font-weight: 300;
     font-size: 20px; }
 
-a.contact-spacing:hover .contact-icon {
-  color: #ff6e24;
-  text-shadow: .75px .75px 0.3px #414141;
-  transition: 30ms;
-  -webkit-transition: 30ms; }
-a.contact-spacing:hover .contact-copy {
-  color: #414141;
-  transition: 30ms;
-  -webkit-transition: 30ms;
-  font-size: 20px;
-  font-weight: 400; }
+a.contact-spacing:hover {
+  margin-left: 1.70596%; }
+  a.contact-spacing:hover .contact-icon {
+    color: #ff6e24;
+    text-shadow: .75px .75px 0.3px #414141;
+    transition: 50ms;
+    -webkit-transition: 50ms; }
+  a.contact-spacing:hover .contact-copy {
+    color: #000000;
+    transition: 50ms;
+    -webkit-transition: 50ms;
+    font-size: 20px; }
 
 .info-header {
   height: 110px;
@@ -267,7 +268,7 @@ a.home-link:hover .name {
 a.home-link:hover .role {
   font-size: 20px;
   font-family: 'Josefin Sans', sans-serif;
-  letter-spacing: .15px;
+  letter-spacing: 0.15px;
   color: #414141;
   transition: 30ms;
   -webkit-transition: 30ms;
@@ -284,7 +285,7 @@ a.home-link:hover .role {
 .role {
   font-size: 20px;
   font-family: 'Josefin Sans', sans-serif;
-  letter-spacing: .15px;
+  letter-spacing: 0.15px;
   color: #414141; }
 
 .site-nav {
@@ -324,7 +325,7 @@ a.nav:hover {
   float: right;
   transition: 300ms;
   -webkit-transition: 300ms;
-  text-shadow: .75px .75px 0.3px #414141;
+  text-shadow: .75px .75px 0.3px #FF6702;
   float: left;
   display: block;
   margin-right: 5.85151%;
@@ -339,7 +340,7 @@ a.nav:hover {
   padding-top: 3%; }
 
 .story-curious {
-  padding: 1em 0.5em 0em 1.75em;
+  padding: 1em 0.5em 0 1.75em;
   background-color: #ff6e24;
   float: left;
   display: block;
@@ -362,7 +363,7 @@ a.nav:hover {
     background-color: #FFFFFF; }
 
 .story-travel {
-  padding: 1em 0em 0em 1.5em;
+  padding: 1em 0 0 1.5em;
   background-color: #ff6e24;
   float: left;
   display: block;
@@ -439,13 +440,12 @@ a.nav:hover {
     margin-right: 0; }
 
 .portfolio-spacer {
-  margin-top: 2%; }
+  margin-top: 1.5%; }
 
 .portfolio-head {
   font-family: 'Londrina Solid', cursive;
   color: #414141;
-  text-shadow: 1.5px 1.5px 0.5px #F5D2CC;
-  font-size: 40px;
+  font-size: 45px;
   float: left;
   margin-left: 3px; }
 
@@ -462,18 +462,18 @@ a.nav:hover {
   display: block;
   margin-right: 2.35765%;
   width: 82.94039%;
-  margin-left: 8.5298%; }
+  margin-left: 8.5298%;
+  text-decoration: none; }
   .project:last-child {
     margin-right: 0; }
 
 .project-name {
   padding: 5px; }
   .project-name .project-link {
+    color: #000000;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
-    color: #414141;
-    font-size: 30px;
-    text-decoration: none; }
+    font-size: 30px; }
 
 .project-img {
   float: left;
@@ -483,9 +483,15 @@ a.nav:hover {
   width: 45.83574%; }
   .project-img:last-child {
     margin-right: 0; }
-  .project-img .flower-screenshot {
-    width: 100%;
-    height: auto; }
+
+.flower-screenshot {
+  width: 100%;
+  height: auto; }
+
+a.site-link:hover {
+  opacity: 0.75;
+  transition: 200ms;
+  webkit-transition: 200ms; }
 
 .project-info {
   padding: 4px;
@@ -499,16 +505,40 @@ a.nav:hover {
   width: 51.38012%; }
   .project-info:last-child {
     margin-right: 0; }
-  .project-info .project-link {
-    text-decoration: none;
-    color: #000000; }
   .project-info .icon-small {
     padding: 3px 1px 3px 3px; }
     .project-info .icon-small .project-icon {
       color: #414141; }
     .project-info .icon-small .link-info {
       font-weight: 300;
-      font-size: 20px; }
+      font-size: 20px;
+      color: #414141; }
+
+a.project-link:hover {
+  text-decoration: none !important;
+  color: #414141 !important;
+  text-shadow: 1px 1px 0.5px #FFFFFF !important;
+  transition: 300ms;
+  webkit-transition: 300ms; }
+  a.project-link:hover .icon-small {
+    padding: 3px 1px 3px 3px !important;
+    text-shadow: 1px 1px 0.5px #FFFFFF !important;
+    font-size: 10px;
+    transition: 300ms;
+    webkit-transition: 300ms; }
+    a.project-link:hover .icon-small .project-icon {
+      color: #414141 !important;
+      text-shadow: 1px 1px 0.5px #FFFFFF !important;
+      font-size: 10px;
+      transition: 300ms;
+      webkit-transition: 300ms; }
+    a.project-link:hover .icon-small .link-info {
+      font-weight: 400 !important;
+      font-size: 20px !important;
+      color: #414141 !important;
+      text-shadow: 1px 1px 0.5px #FFFFFF !important;
+      transition: 300ms;
+      webkit-transition: 300ms; }
 
 .social-icons h4 {
   display: inline-block;

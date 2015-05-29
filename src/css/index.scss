@@ -1,41 +1,32 @@
 /*------------------------------------*\
     #INDEX
 \*------------------------------------*/
-
 * {
   margin: 0;
 }
-
-html, body {
+html,
+body {
   height: 100%;
   background-color: $white;
-
 }
-
 a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 a:visited {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 a:active {
-    text-decoration: none;
+  text-decoration: none;
 }
-
 .opaque {
   opacity: $translucent;
 }
-
 .text-shadow {
   text-shadow: $default-text-shadow;
 }
-
 .footer {
   height: 110px;
   font-family: $sans-serif;
@@ -49,50 +40,41 @@ a:active {
   -moz-box-shadow: $top-shadow-moz;
   box-shadow: $top-shadow;
 }
-
 .footer-fox {
   width: 90px;
   height: 100%;
   float: left;
-  margin-left: .6%;
+  margin-left: 0.6%;
 }
-
 .contact {
   margin-top: 2.25%;
-
   .contact-spacing {
     @include shift(.2);
   }
-    .contact-icon {
-      color: $neutral-light;
-    }
-
-    .contact-copy {
-      color: $dark-gray;
-      font-weight: $light;
-      font-size: 20px;
+  .contact-icon {
+    color: $neutral-light;
+  }
+  .contact-copy {
+    color: $dark-gray;
+    font-weight: $light;
+    font-size: 20px;
   }
 }
-
 a.contact-spacing:hover {
   @include shift(.2);
-  
   .contact-icon {
     color: $neutral-light;
     text-shadow: $contact-hover-shadow;
     transition: 50ms;
     -webkit-transition: 50ms;
   }
-
   .contact-copy {
-    color $black;
+    color: $black;
     transition: 50ms;
     -webkit-transition: 50ms;
     font-size: 20px;
-
   }
 }
-
 .info-header {
   height: 110px;
   background-color: $white;
@@ -102,7 +84,6 @@ a.contact-spacing:hover {
   -moz-box-shadow: $default-shadow-moz;
   box-shadow: $default-shadow;
 }
-
 .title {
   font-family: $sans-serif;
   padding-left: 1em;
@@ -110,26 +91,23 @@ a.contact-spacing:hover {
   @include span-columns(5);
   @include shift(.1);
 }
-
 a.home-link {
   text-decoration: none;
 }
-
 a.home-link:hover {
   .name {
-   font-family: $display;
-   font-size: 60px;
-   color: $neutral;
-   line-height: 1.3em;
-   transition: 30ms;
-   -webkit-transition: 30ms;
-   opacity: $lighter;
+    font-family: $display;
+    font-size: 60px;
+    color: $neutral;
+    line-height: 1.3em;
+    transition: 30ms;
+    -webkit-transition: 30ms;
+    opacity: $lighter;
   }
-
   .role {
     font-size: 20px;
     font-family: $sans-serif;
-    letter-spacing: .15px;
+    letter-spacing: 0.15px;
     color: $dark-gray;
     transition: 30ms;
     -webkit-transition: 30ms;
@@ -137,24 +115,19 @@ a.home-link:hover {
     -webkit-transition: 30ms;
     opacity: $lighter;
   }
-
 }
-
 .name {
- font-family: $display;
- font-size: 60px;
- color: $neutral;
- line-height: 1.3em;
-
+  font-family: $display;
+  font-size: 60px;
+  color: $neutral;
+  line-height: 1.3em;
 }
-
 .role {
   font-size: 20px;
   font-family: $sans-serif;
-  letter-spacing: .15px;
+  letter-spacing: 0.15px;
   color: $dark-gray;
 }
-
 .site-nav {
   margin-top: 45px;
   font-family: $sans-serif;
@@ -162,7 +135,6 @@ a.home-link:hover {
   padding-right: 1em;
   @include span-columns(5);
 }
-
 a.nav {
   text-decoration: none;
   color: $dark-gray;
@@ -173,7 +145,6 @@ a.nav {
   @include span-columns(2.4 of 5);
   @include omega;
 }
-
 a.nav:hover {
   text-decoration: none;
   color: $dark-gray;
@@ -188,21 +159,17 @@ a.nav:hover {
   @include span-columns(2.4 of 5);
   @include omega;
 }
-
-
 .hero {
   font-family: $display;
   @include shift(.4);
   padding-top: 3%;
 }
-
 .story-curious {
-  padding: 1em 0.5em 0em 1.75em;
+  padding: 1em 0.5em 0 1.75em;
   background-color: $neutral-light;
   @include span-columns(3.15);
   @include shift(.18);
   @include omega;
-
   .tagline {
     font-size: 24px;
     font-family: $sans-serif;
@@ -211,21 +178,18 @@ a.nav:hover {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
   }
-
   .story-pic {
     width: 90%;
     height: auto;
     background-color: $white;
   }
 }
-
 .story-travel {
-  padding: 1em 0em 0em 1.5em;
+  padding: 1em 0 0 1.5em;
   background-color: $neutral-light;
   @include span-columns(4.2);
   @include shift(.18);
   @include omega;
-
   .tagline {
     font-size: 24px;
     font-family: $sans-serif;
@@ -234,14 +198,12 @@ a.nav:hover {
     padding-top: 0.5em;
     padding-bottom: 0.5em;
   }
-
   .story-pic {
     width: 90%;
     height: auto;
     background-color: $white;
   }
 }
-
 .story {
   -webkit-box-shadow: $default-img-shadow-safari;
   -moz-box-shadow: $default-img-shadow-moz;
