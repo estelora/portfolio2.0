@@ -366,4 +366,89 @@ a.nav:hover {
   }
 }
 
-@media all and (max-width:775px) {}
+@media all and (max-width:775px) {
+
+  .footer-fox {
+    width: 75px;
+  }
+  .contact {
+    margin-top: 2.25%;
+    .contact-spacing {
+      @include shift(.12);
+    }
+    .contact-copy {
+      font-size: 16px;
+    }
+  }
+  a.contact-spacing:hover {
+    @include shift(.12);
+
+    .contact-copy {
+      color: $black;
+      transition: 50ms;
+      -webkit-transition: 50ms;
+      font-size: 16px;
+    }
+  }
+  .info-header {
+    height: 95px;
+    background-color: $white;
+    background-image: url("images/ricepaper2.png");
+    padding: 0.358%;
+    -webkit-box-shadow: $default-shadow-safari;
+    -moz-box-shadow: $default-shadow-moz;
+    box-shadow: $default-shadow;
+  }
+  .title {
+    font-family: $sans-serif;
+    padding-left: 1em;
+    letter-spacing: -1px;
+    @include span-columns(5);
+    @include shift(.1);
+  }
+  .name {
+    font-size: 50px;
+    padding-top: 3px;
+  }
+  .role {
+    font-size: 16px;
+    letter-spacing: 0.05px;
+    padding-top: 3px;
+  }
+  .hero {
+    overflow-y: scroll;
+    padding-top: 3%;
+    @include shift(1);
+
+  }
+  .story-curious {
+    padding: 1em 0em 0 1.5em;
+    margin-bottom: 1.5em;
+    @include shift(2.5);
+    @include span-columns(6);
+    @include omega;
+
+    .story-pic {
+      width: 90%;
+      height: auto;
+      background-color: $white;
+    }
+    .tagline {
+      font-size: 20px;
+      padding-top: .5em;
+      @include shift(-1);
+    }
+  }
+  .story-travel {
+    padding: 1em 0 0 2.5em;
+    margin-bottom: 1.5em;
+    background-color: $neutral-light;
+    @include span-columns(9);
+    @include shift(1.1);
+    @include omega;
+    .tagline {
+      font-size: 20px;
+      @include shift(-1);
+    }
+  }
+}
