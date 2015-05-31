@@ -373,13 +373,68 @@ a.nav:hover {
   }
   .contact {
     margin-top: 2.25%;
+  }
     .contact-spacing {
       @include shift(.12);
     }
     .contact-copy {
       font-size: 16px;
     }
+
+  a.contact-spacing:hover {
+    @include shift(.12);
+
+    .contact-copy {
+      font-size: 16px;
+    }
   }
+  .info-header {
+    height: 95px;
+  }
+
+  .name {
+    font-size: 50px;
+    padding-top: 3px;
+  }
+  .role {
+    font-size: 16px;
+    letter-spacing: 0.05px;
+    padding-top: 3px;
+  }
+  .hero {
+    padding-top: 3%;
+  }
+  .story-curious {
+    padding: 1em 0em 0 1.5em;
+    @include shift(2.5);
+
+    .tagline {
+      font-size: 20px;
+      padding-top: .5em;
+      @include shift(-1);
+    }
+  }
+  .story-travel {
+    padding: 1em 0 0 2.5em;
+    }
+}
+
+
+@media all and (max-width:700px) {
+
+  .footer-fox {
+    width: 75px;
+  }
+  .contact {
+    margin-top: 2.25%;
+  }
+    .contact-spacing {
+      @include shift(.12);
+    }
+    .contact-copy {
+      font-size: 16px;
+    }
+
   a.contact-spacing:hover {
     @include shift(.12);
 
@@ -407,10 +462,10 @@ a.nav:hover {
     @include shift(.1);
   }
   .name {
-    font-size: 50px;
+    font-size: 40px;
     padding-top: 3px;
   }
-  .role {
+    .role {
     font-size: 16px;
     letter-spacing: 0.05px;
     padding-top: 3px;
