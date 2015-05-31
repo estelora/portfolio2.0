@@ -424,61 +424,78 @@ a.nav:hover {
     }
 }
 
-
 @media all and (max-width:700px) {
-  .footer
+  .footer {
+    height: 80px;
+    padding: 1%;
+  }
   .footer-fox {
-    width: 75px;
+    width: 70px;
   }
   .contact {
-    margin-top: 2.25%;
+    margin-top: 3.25%;
+  }
+  .fa-2x {
+    font-size: 1.5em !important;
   }
     .contact-spacing {
-      @include shift(.12);
+      @include shift(-.1);
     }
     .contact-copy {
-      font-size: 16px;
+      font-size: 10px;
     }
 
   a.contact-spacing:hover {
-    @include shift(.12);
-
     .contact-copy {
       color: $black;
-      transition: 50ms;
-      -webkit-transition: 50ms;
-      font-size: 16px;
     }
   }
   .info-header {
     height: 90px;
-    background-color: $white;
-    background-image: url("images/ricepaper2.png");
-    padding: 0.358%;
-    -webkit-box-shadow: $default-shadow-safari;
-    -moz-box-shadow: $default-shadow-moz;
-    box-shadow: $default-shadow;
+    padding: 0.4%;
+
   }
   .title {
     font-family: $sans-serif;
     padding-left: 1em;
     letter-spacing: -1px;
-    @include span-columns(5);
+    @include span-columns(5.7);
     @include shift(.1);
   }
   .name {
-    font-size: 45px;
-    padding-top: 3px;
+    font-size: 44px;
+    letter-spacing: 1px;
   }
     .role {
     font-size: 16px;
-    letter-spacing: 0.05px;
-    padding-top: 3px;
+    letter-spacing: 0.03px;
+    padding-top: 2px;
+  }
+  .site-nav {
+    margin-top: 40px;
+    font-family: $sans-serif;
+    float: right !important;
+    padding-right: 1em;
+    @include span-columns(5);
+  }
+  a.nav {
+    text-decoration: none;
+    color: $dark-gray;
+    font-size: 20px;
+    text-align: right;
+    // font-weight: $light;
+    // float: right;
+    // @include span-columns(2.4 of 5);
+    // @include omega;
+  }
+  a.nav:hover {
+    font-size: 24px;
+
   }
   .hero {
     overflow-y: scroll;
-    padding-top: 3%;
-    @include shift(1);
+    padding-top: 3.5%;
+    @include shift(.55);
 
   }
   .story-curious {
@@ -494,20 +511,21 @@ a.nav:hover {
       background-color: $white;
     }
     .tagline {
-      font-size: 20px;
-      padding-top: .5em;
+      font-size: 18px;
+      padding-top: .7em;
       @include shift(-1);
     }
   }
   .story-travel {
-    padding: 1em 0 0 2.5em;
+    padding: 1em 0 0 2em;
     margin-bottom: 1.5em;
     background-color: $neutral-light;
     @include span-columns(9);
     @include shift(1.1);
     @include omega;
     .tagline {
-      font-size: 20px;
+      font-size: 18px;
+      padding-top: .7em;
       @include shift(-1);
     }
   }
