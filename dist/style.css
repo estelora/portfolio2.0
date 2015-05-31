@@ -640,11 +640,93 @@ a.nav:hover {
   .hero {
     overflow-y: scroll;
     padding-top: 3.5%;
-    margin-left: 4.69139%; }
+    margin-left: 0 !important; }
+  .story-curious {
+    padding: 1em 0 0 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: 25.58941%; }
+    .story-curious .tagline {
+      font-size: 18px;
+      padding-top: .7em; }
+  .story-travel {
+    padding: 1em 0 0 2em;
+    margin-left: 12.79471%; }
+    .story-travel .tagline {
+      font-size: 18px;
+      padding-top: .7em; } }
+
+@media all and (max-width: 600px) {
+  .footer {
+    height: 80px;
+    padding: 1%; }
+  .footer-fox {
+    width: 70px; }
+  .contact {
+    margin-top: 3.25%; }
+  .fa-2x {
+    font-size: 1.5em !important; }
+  .contact-spacing {
+    margin-left: -0.85298%; }
+  .contact-copy {
+    font-size: 10px; }
+  a.contact-spacing:hover .contact-copy {
+    color: #000000; }
+  .info-header {
+    height: 90px;
+    padding: 0.4%; }
+  .title {
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left: 1em;
+    letter-spacing: -1px;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 46.26223%;
+    margin-left: 0.85298%; }
+    .title:last-child {
+      margin-right: 0; }
+  .name {
+    font-size: 44px;
+    letter-spacing: 1px; }
+  .role {
+    font-size: 16px;
+    letter-spacing: 0.03px;
+    padding-top: 2px; }
+  .site-nav {
+    margin-top: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    float: right !important;
+    padding-right: 1em;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 40.29137%; }
+    .site-nav:last-child {
+      margin-right: 0; }
+  a.nav {
+    text-decoration: none;
+    color: #414141;
+    font-size: 20px;
+    text-align: right;
+    font-weight: 300;
+    float: right;
+    float: left;
+    display: block;
+    margin-right: 5.85151%;
+    width: 44.95722%;
+    margin-right: 0; }
+    a.nav:last-child {
+      margin-right: 0; }
+  a.nav:hover {
+    font-size: 24px; }
+  .hero {
+    overflow-y: scroll;
+    padding-top: 3.5%;
+    margin-left: 0 !important; }
   .story-curious {
     padding: 1em 0em 0 1.5em;
     margin-bottom: 1.5em;
-    margin-left: 21.32451%;
+    margin-left: 63.5109%;
     float: left;
     display: block;
     margin-right: 2.35765%;
