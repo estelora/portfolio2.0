@@ -105,3 +105,661 @@ a.project-link:hover {
     }
   }
 }
+
+/*------------------------------------*\
+    #INSPECT MEDIA QUERIES
+\*------------------------------------*/
+
+@media all and (max-width:1000px) {
+  .portfolio-content {
+    padding: 1%;
+    margin-top: 2px;
+    @include outer-container;
+  }
+  .inspect-header {
+    text-align: center;
+    padding: 5px 0.5% 1%;
+    @include span-columns(11);
+    @include shift(.5);
+  }
+  .portfolio-spacer {
+    margin-top: 1.5%;
+  }
+  .portfolio-head {
+    font-family: $display;
+    color: $dark-gray;
+    font-size: 45px;
+    float: left;
+    margin-left: 3px;
+  }
+  .inspect-fox {
+    width: 80px;
+    height: 100%;
+    float: left;
+    @include shift(3.8);
+  }
+  .project {
+    background-color: $blush;
+    padding: 1.5%;
+    @include span-columns(10);
+    @include shift(1);
+    text-decoration: none;
+  }
+  .project-name {
+    padding: 5px;
+    .project-link {
+      color: $black;
+      font-family: $sans-serif;
+      font-weight: $bold;
+      font-size: 30px;
+    }
+  }
+  .project-img {
+    float: left;
+    @include span-columns(5.65);
+  }
+  .flower-screenshot {
+    width: 100%;
+    height: auto;
+  }
+  a.site-link:hover {
+    opacity: $lighter;
+    transition: 200ms;
+    webkit-transition: 200ms;
+  }
+  .project-info {
+    padding: 4px;
+    float: left;
+    font-size: 16px;
+    line-height: 29px;
+    font-family: $sans-serif;
+    @include span-columns(6.3);
+    .icon-small {
+      padding: 3px 1px 3px 3px;
+      .project-icon {
+        color: $dark-gray;
+      }
+      .link-info {
+        font-weight: $light;
+        font-size: 20px;
+        color: $dark-gray;
+      }
+    }
+  }
+  a.project-link:hover {
+    text-decoration: none !important;
+    color: $dark-gray !important;
+    text-shadow: $white-text-shadow !important;
+    transition: 300ms;
+    webkit-transition: 300ms;
+    .icon-small {
+      padding: 0;
+      text-shadow: $white-text-shadow !important;
+      font-size: 10px;
+      transition: 300ms;
+      webkit-transition: 300ms;
+      .project-icon {
+        color: $dark-gray !important;
+        text-shadow: $white-text-shadow !important;
+        font-size: 10px;
+        transition: 300ms;
+        webkit-transition: 300ms;
+      }
+      .link-info {
+        font-weight: $normal !important;
+        font-size: 20px !important;
+        color: $dark-gray !important;
+        text-shadow: $white-text-shadow !important;
+        transition: 300ms;
+        webkit-transition: 300ms;
+      }
+    }
+  }
+}
+
+@media all and (max-width:900px) {
+  .portfolio-content {
+    padding: 1%;
+    margin-top: 5px;
+    @include outer-container;
+  }
+  .inspect-header {
+    text-align: center;
+    padding: 5px 0.5% 1%;
+    @include span-columns(11);
+    @include shift(.5);
+  }
+  .portfolio-spacer {
+    margin-top: 2%;
+  }
+  .portfolio-head {
+    font-family: $display;
+    color: $dark-gray;
+    font-size: 40px;
+    float: left;
+    margin-left: 3px;
+  }
+  .inspect-fox {
+    width: 75px;
+    height: 100%;
+    float: left;
+    @include shift(3.8);
+  }
+  .project {
+    background-color: $blush;
+    padding: 2%;
+    @include span-columns(11);
+    @include shift(.5);
+    text-decoration: none;
+  }
+  .project-name {
+    padding: 5px;
+    .project-link {
+      color: $black;
+      font-family: $sans-serif;
+      font-weight: $bold;
+      font-size: 30px;
+    }
+  }
+  .project-img {
+    float: left;
+    @include span-columns(5.65);
+  }
+  .flower-screenshot {
+    width: 100%;
+    height: auto;
+  }
+  a.site-link:hover {
+    opacity: $lighter;
+    transition: 200ms;
+    webkit-transition: 200ms;
+  }
+  .project-info {
+    padding: 4px;
+    float: left;
+    font-size: 16px;
+    line-height: 30px;
+    font-family: $sans-serif;
+    @include span-columns(6.3);
+    .icon-small {
+      padding: 3px 1px 3px 3px;
+      .project-icon {
+        color: $dark-gray;
+      }
+      .link-info {
+        font-weight: $light;
+        font-size: 18px;
+        color: $dark-gray;
+      }
+    }
+  }
+  a.project-link:hover {
+    text-decoration: none !important;
+    color: $dark-gray !important;
+    text-shadow: $white-text-shadow !important;
+    transition: 300ms;
+    webkit-transition: 300ms;
+    .icon-small {
+      padding: 0;
+      text-shadow: $white-text-shadow !important;
+      font-size: 10px;
+      transition: 300ms;
+      webkit-transition: 300ms;
+      .project-icon {
+        color: $dark-gray !important;
+        text-shadow: $white-text-shadow !important;
+        font-size: 10px;
+        transition: 300ms;
+        webkit-transition: 300ms;
+      }
+      .link-info {
+        font-weight: $normal !important;
+        font-size: 18px !important;
+        color: $dark-gray !important;
+        text-shadow: $white-text-shadow !important;
+        transition: 300ms;
+        webkit-transition: 300ms;
+      }
+    }
+  }
+}
+
+@media all and (max-width:825px) {
+  .portfolio-content {
+    padding: 1%;
+    margin-top: 3%;
+    @include outer-container;
+  }
+  .inspect-header {
+    text-align: center;
+    padding: 5px 0.5% 1%;
+    @include span-columns(11);
+    @include shift(.5);
+  }
+  .portfolio-spacer {
+    margin-top: 2%;
+  }
+  .portfolio-head {
+    font-family: $display;
+    color: $dark-gray;
+    font-size: 40px;
+    float: left;
+    margin-left: 3px;
+  }
+  .inspect-fox {
+    width: 75px;
+    height: 100%;
+    float: left;
+    @include shift(3.8);
+  }
+  .project {
+    background-color: $blush;
+    padding: 2%;
+    @include span-columns(11);
+    @include shift(.5);
+    text-decoration: none;
+  }
+  .project-name {
+    padding: 5px;
+    .project-link {
+      color: $black;
+      font-family: $sans-serif;
+      font-weight: $bold;
+      font-size: 28px;
+    }
+  }
+  .project-img {
+    float: left;
+    @include span-columns(5.65);
+  }
+  .flower-screenshot {
+    width: 100%;
+    height: auto;
+  }
+  a.site-link:hover {
+    opacity: $lighter;
+    transition: 200ms;
+    webkit-transition: 200ms;
+  }
+  .project-info {
+    padding: 4px;
+    float: left;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: $sans-serif;
+    @include span-columns(6.3);
+    .icon-small {
+      padding: 3px 1px 3px 3px;
+      .project-icon {
+        color: $dark-gray;
+      }
+      .link-info {
+        font-weight: $light;
+        font-size: 17px;
+        color: $dark-gray;
+        margin-bottom: 2px;
+      }
+    }
+  }
+  a.project-link:hover {
+    text-decoration: none !important;
+    color: $dark-gray !important;
+    text-shadow: $white-text-shadow !important;
+    transition: 300ms;
+    webkit-transition: 300ms;
+    .icon-small {
+      padding: 0;
+      text-shadow: $white-text-shadow !important;
+      font-size: 10px;
+      transition: 300ms;
+      webkit-transition: 300ms;
+      .project-icon {
+        color: $dark-gray !important;
+        text-shadow: $white-text-shadow !important;
+        font-size: 10px;
+        transition: 300ms;
+        webkit-transition: 300ms;
+      }
+      .link-info {
+        font-weight: $normal !important;
+        font-size: 17px !important;
+        color: $dark-gray !important;
+        text-shadow: $white-text-shadow !important;
+        transition: 300ms;
+        webkit-transition: 300ms;
+      }
+    }
+  }
+}
+
+@media all and (max-width:750px) {
+  .portfolio-content {
+    padding: 1%;
+    margin-top: 4%;
+    @include outer-container;
+  }
+  .inspect-header {
+    text-align: center;
+    padding: 5px 0.5% 1%;
+    @include span-columns(11);
+    @include shift(.5);
+  }
+  .portfolio-spacer {
+    margin-top: 3.25%;
+  }
+  .portfolio-head {
+    font-family: $display;
+    color: $dark-gray;
+    font-size: 42px;
+    float: left;
+    margin-left: 3px;
+  }
+  .inspect-fox {
+    width: 90px;
+    height: 100%;
+    float: left;
+    @include shift(3.8);
+  }
+  .project {
+    background-color: $blush;
+    padding: 2%;
+    @include span-columns(11);
+    @include shift(.5);
+    text-decoration: none;
+  }
+  .project-name {
+    padding: 5px;
+    .project-link {
+      color: $black;
+      font-family: $sans-serif;
+      font-weight: $bold;
+      font-size: 28px;
+    }
+  }
+  .project-img {
+    float: left;
+    border: 1px dashed green;
+    @include span-columns(5.8);
+  }
+  .flower-screenshot {
+    width: 100%;
+    height: auto;
+  }
+  a.site-link:hover {
+    opacity: $lighter;
+    transition: 200ms;
+    webkit-transition: 200ms;
+  }
+  .project-info {
+    padding: 1px;
+    float: left;
+    font-size: 13px;
+    line-height: 20px;
+    font-family: $sans-serif;
+    border: 1px dashed black;
+    @include span-columns(6.2);
+    .icon-small {
+      padding: 3px 1px 3px 3px;
+      .project-icon {
+        color: $dark-gray;
+      }
+      .link-info {
+        font-weight: $light;
+        font-size: 16px;
+        color: $dark-gray;
+        margin-bottom: 2px;
+      }
+    }
+  }
+  a.project-link:hover {
+    text-decoration: none !important;
+    color: $dark-gray !important;
+    text-shadow: $white-text-shadow !important;
+    transition: 300ms;
+    webkit-transition: 300ms;
+    .icon-small {
+      padding: 0;
+      text-shadow: $white-text-shadow !important;
+      font-size: 10px;
+      transition: 300ms;
+      webkit-transition: 300ms;
+      .project-icon {
+        color: $dark-gray !important;
+        text-shadow: $white-text-shadow !important;
+        font-size: 10px;
+        transition: 300ms;
+        webkit-transition: 300ms;
+      }
+      .link-info {
+        font-weight: $normal !important;
+        font-size: 17px !important;
+        color: $dark-gray !important;
+        text-shadow: $white-text-shadow !important;
+        transition: 300ms;
+        webkit-transition: 300ms;
+      }
+    }
+  }
+}
+
+@media all and (max-width:650px) {
+  .portfolio-content {
+    padding: 1%;
+    margin-top: 1%;
+    @include outer-container;
+  }
+  .inspect-header {
+    text-align: center;
+    padding: 5px 0.5% 1%;
+    @include span-columns(11);
+    @include shift(.5);
+  }
+  .portfolio-spacer {
+    margin-top: 3.25%;
+  }
+  .portfolio-head {
+    font-family: $display;
+    color: $dark-gray;
+    font-size: 36px;
+    float: left;
+    margin-left: 3px;
+  }
+  .inspect-fox {
+    width: 80px;
+    height: 100%;
+    float: left;
+    @include shift(3.8);
+  }
+  .project {
+    background-color: $blush;
+    padding: 2%;
+    margin-top: 1%;
+     @include span-columns(11.2);
+    @include shift(.4);
+    text-decoration: none;
+  }
+  .project-name {
+    padding: 5px;
+    .project-link {
+      color: $black;
+      font-family: $sans-serif;
+      font-weight: $bold;
+      font-size: 28px;
+    }
+  }
+  .project-img {
+    float: left;
+    border: 1px dashed green;
+    @include span-columns(5);
+  }
+  .flower-screenshot {
+    width: 100%;
+    height: auto;
+  }
+  a.site-link:hover {
+    opacity: $lighter;
+    transition: 200ms;
+    webkit-transition: 200ms;
+  }
+  .project-info {
+    padding: 1px;
+    float: left;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: $sans-serif;
+    border: 1px dashed black;
+    @include span-columns(7);
+    .icon-small {
+      padding: 3px 1px 3px 3px;
+      .project-icon {
+        color: $dark-gray;
+      }
+      .link-info {
+        font-weight: $light;
+        font-size: 16px;
+        color: $dark-gray;
+        margin-bottom: 2px;
+      }
+    }
+  }
+  a.project-link:hover {
+    text-decoration: none !important;
+    color: $dark-gray !important;
+    text-shadow: $white-text-shadow !important;
+    transition: 300ms;
+    webkit-transition: 300ms;
+    .icon-small {
+      padding: 0;
+      text-shadow: $white-text-shadow !important;
+      font-size: 10px;
+      transition: 300ms;
+      webkit-transition: 300ms;
+      .project-icon {
+        color: $dark-gray !important;
+        text-shadow: $white-text-shadow !important;
+        font-size: 10px;
+        transition: 300ms;
+        webkit-transition: 300ms;
+      }
+      .link-info {
+        font-weight: $normal !important;
+        font-size: 17px !important;
+        color: $dark-gray !important;
+        text-shadow: $white-text-shadow !important;
+        transition: 300ms;
+        webkit-transition: 300ms;
+      }
+    }
+  }
+}
+
+@media all and (max-width:600px) {
+  .portfolio-content {
+    padding: 1%;
+    margin-top: 1%;
+    @include outer-container;
+  }
+  .inspect-header {
+    text-align: center;
+    padding: 5px 0.5% 1%;
+    @include span-columns(11);
+    @include shift(.5);
+  }
+  .portfolio-spacer {
+    margin-top: 3.25%;
+  }
+  .portfolio-head {
+    font-family: $display;
+    color: $dark-gray;
+    font-size: 36px;
+    float: left;
+    margin-left: 3px;
+  }
+  .inspect-fox {
+    width: 80px;
+    height: 100%;
+    float: left;
+    @include shift(3.8);
+  }
+  .project {
+    background-color: $blush;
+    padding: 2%;
+    margin-top: 1%;
+     @include span-columns(11.2);
+    @include shift(.4);
+    text-decoration: none;
+  }
+  .project-name {
+    padding: 5px;
+    .project-link {
+      color: $black;
+      font-family: $sans-serif;
+      font-weight: $bold;
+      font-size: 28px;
+    }
+  }
+  .project-img {
+    float: left;
+    border: 1px dashed green;
+    @include span-columns(5);
+  }
+  .flower-screenshot {
+    width: 100%;
+    height: auto;
+  }
+  a.site-link:hover {
+    opacity: $lighter;
+    transition: 200ms;
+    webkit-transition: 200ms;
+  }
+  .project-info {
+    padding: 1px;
+    float: left;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: $sans-serif;
+    border: 1px dashed black;
+    @include span-columns(7);
+    .icon-small {
+      padding: 3px 1px 3px 3px;
+      .project-icon {
+        color: $dark-gray;
+      }
+      .link-info {
+        font-weight: $light;
+        font-size: 16px;
+        color: $dark-gray;
+        margin-bottom: 2px;
+      }
+    }
+  }
+  a.project-link:hover {
+    text-decoration: none !important;
+    color: $dark-gray !important;
+    text-shadow: $white-text-shadow !important;
+    transition: 300ms;
+    webkit-transition: 300ms;
+    .icon-small {
+      padding: 0;
+      text-shadow: $white-text-shadow !important;
+      font-size: 10px;
+      transition: 300ms;
+      webkit-transition: 300ms;
+      .project-icon {
+        color: $dark-gray !important;
+        text-shadow: $white-text-shadow !important;
+        font-size: 10px;
+        transition: 300ms;
+        webkit-transition: 300ms;
+      }
+      .link-info {
+        font-weight: $normal !important;
+        font-size: 17px !important;
+        color: $dark-gray !important;
+        text-shadow: $white-text-shadow !important;
+        transition: 300ms;
+        webkit-transition: 300ms;
+      }
+    }
+  }
+}
