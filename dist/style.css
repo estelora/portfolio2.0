@@ -870,18 +870,20 @@ a.nav:hover {
 @media all and (max-width: 400px) {
   .footer {
     height: 80px;
-    padding: 1%; }
+    padding: .5%; }
   .footer-fox {
     width: 0px;
     height: 0px;
     margin-top: 0px; }
   .contact {
-    margin-top: 6%; }
+    margin-top: 1% !important; }
   .fa-2x {
-    font-size: 1em !important; }
+    font-size: 1.5em !important; }
+  .contact-spacing {
+    margin-left: 5% !important; }
   .contact-copy {
-    font-size: 14px !important;
-    font-weight: 100; }
+    font-size: 20px !important;
+    font-weight: 100 !important; }
   a.contact-spacing:hover .contact-copy {
     color: #000000; }
   .info-header {
