@@ -516,19 +516,22 @@ a.nav:hover {
     padding: 1%;
   }
   .footer-fox {
-    width: 70px;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
   }
   .contact {
-    margin-top: 3.25%;
+    margin-top: 3.75%;
   }
   .fa-2x {
     font-size: 1.5em !important;
   }
     .contact-spacing {
-      @include shift(-.1);
+
     }
     .contact-copy {
-      font-size: 10px;
+      font-size: 14px !important;
+      font-weight: $thin;
     }
 
   a.contact-spacing:hover {
@@ -544,12 +547,13 @@ a.nav:hover {
     font-family: $sans-serif;
     padding-left: 1em;
     letter-spacing: -1px;
-    @include span-columns(5.7);
+    @include span-columns(6);
     @include shift(.1);
   }
   .name {
-    font-size: 44px;
-    letter-spacing: 1px;
+    font-size: 40px;
+    letter-spacing: 0 !important;
+    padding-top: 10px;
   }
     .role {
     font-size: 16px;
@@ -584,8 +588,8 @@ a.nav:hover {
   .story-curious {
     padding: 1em 0em 0 1.5em;
     margin-bottom: 1.5em;
-    @include shift(3);
-    @include span-columns(6);
+    @include shift(.8);
+    @include span-columns(8);
     @include omega;
 
     .story-pic {
@@ -604,7 +608,7 @@ a.nav:hover {
     margin-bottom: 1.5em;
     background-color: $neutral-light;
     @include span-columns(9);
-    @include shift(1.1);
+    @include shift(1.45);
     @include omega;
     .tagline {
       font-size: 18px;
