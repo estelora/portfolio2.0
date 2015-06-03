@@ -20,6 +20,10 @@
   @include pad();
 }
 
+/*------------------------------------*\
+    #ABOUT MEDIA QUERIES
+\*------------------------------------*/
+
 @media all and (max-width:1000px) {
   .head {
    font-family: $display;
