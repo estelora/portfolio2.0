@@ -767,11 +767,10 @@ a.nav:hover {
     font-family: $sans-serif;
     padding-left: 1em;
     letter-spacing: -1px;
-    @include span-columns(7);
-    // @include shift(.1);
+    @include span-columns(6);
   }
   .name {
-    font-size: 27px;
+    font-size: 25px;
     letter-spacing: 0 !important;
     padding-top: 10px;
   }
@@ -781,24 +780,23 @@ a.nav:hover {
     padding-top: 2px;
   }
   .site-nav {
-    margin-top: 40px;
+    margin-top: 35px;
     font-family: $sans-serif;
     float: right !important;
-    padding-right: 1em;
-    @include span-columns(4);
+    @include span-columns(5);
   }
   a.nav {
     text-decoration: none;
     color: $dark-gray;
-    font-size: 13px;
+    font-size: 14px;
     text-align: right;
     font-weight: $light;
     float: right;
-    @include span-columns(1.9 of 4);
+    @include span-columns(2 of 4);
     @include omega;
   }
   a.nav:hover {
-    font-size: 13px !important;
+    font-size: 14px !important;
   }
   .hero {
     overflow-y: scroll;

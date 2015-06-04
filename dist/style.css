@@ -901,11 +901,11 @@ a.nav:hover {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 57.35098%; }
+    width: 48.82117%; }
     .title:last-child {
       margin-right: 0; }
   .name {
-    font-size: 27px;
+    font-size: 25px;
     letter-spacing: 0 !important;
     padding-top: 10px; }
   .role {
@@ -913,32 +913,31 @@ a.nav:hover {
     letter-spacing: 0;
     padding-top: 2px; }
   .site-nav {
-    margin-top: 40px;
+    margin-top: 35px;
     font-family: 'Josefin Sans', sans-serif;
     float: right !important;
-    padding-right: 1em;
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 31.76157%; }
+    width: 40.29137%; }
     .site-nav:last-child {
       margin-right: 0; }
   a.nav {
     text-decoration: none;
     color: #414141;
-    font-size: 13px;
+    font-size: 14px;
     text-align: right;
     font-weight: 300;
     float: right;
     float: left;
     display: block;
     margin-right: 7.42297%;
-    width: 43.60294%;
+    width: 46.28851%;
     margin-right: 0; }
     a.nav:last-child {
       margin-right: 0; }
   a.nav:hover {
-    font-size: 13px !important; }
+    font-size: 14px !important; }
   .hero {
     overflow-y: scroll;
     padding-top: 5% !important;
