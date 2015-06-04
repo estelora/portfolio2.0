@@ -72,30 +72,6 @@
   }
 }
 
-@media all and (max-width:900px) {
-  .head {
-   font-family: $display;
-   font-size: 50px;
-   color: $white;
-   line-height: 55px;
-   margin-left: 1%;
-   margin-bottom: 3%;
-  }
-
-  .copy {
-    font-size: 29px;
-    font-weight: $light;
-    font-family: $sans-serif;
-    margin: 8% 15% 0;
-    line-height: 38px;
-    background-color: $neutral-light;
-    -webkit-box-shadow: $default-img-shadow-safari;
-    -moz-box-shadow: $default-img-shadow-moz;
-    box-shadow: $default-img-shadow-chrome;
-    @include pad();
-  }
-}
-
 @media all and (max-width:775px) {
   .head {
    font-family: $display;
@@ -119,7 +95,6 @@
     @include pad(3%);
   }
 }
-
 
 @media all and (max-width:650px) {
   .head {

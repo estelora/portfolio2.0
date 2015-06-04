@@ -1042,26 +1042,6 @@ a.nav:hover {
     box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
     padding: 2.35765%; } }
 
-@media all and (max-width: 900px) {
-  .head {
-    font-family: 'Londrina Solid', cursive;
-    font-size: 50px;
-    color: #FFFFFF;
-    line-height: 55px;
-    margin-left: 1%;
-    margin-bottom: 3%; }
-  .copy {
-    font-size: 29px;
-    font-weight: 300;
-    font-family: 'Josefin Sans', sans-serif;
-    margin: 8% 15% 0;
-    line-height: 38px;
-    background-color: #ff6e24;
-    -webkit-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-    box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-    padding: 2.35765%; } }
-
 @media all and (max-width: 775px) {
   .head {
     font-family: 'Londrina Solid', cursive;
