@@ -1960,6 +1960,156 @@ a.project-link:hover {
         transition: 300ms;
         webkit-transition: 300ms; } }
 
+@media all and (max-width: 450px) {
+  .portfolio-content {
+    padding: 1%;
+    margin-top: 1%;
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto; }
+    .portfolio-content::after {
+      clear: both;
+      content: "";
+      display: table; }
+  .inspect-header {
+    text-align: center;
+    padding: 5px 0.5% 1%;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 91.4702%;
+    margin-left: 4.2649%; }
+    .inspect-header:last-child {
+      margin-right: 0; }
+  .portfolio-spacer {
+    margin-top: 2.5%; }
+  .portfolio-head {
+    font-family: 'Londrina Solid', cursive;
+    color: #414141;
+    font-size: 30px;
+    float: left;
+    margin-left: 3px; }
+  .inspect-fox {
+    width: 60px;
+    height: 100%;
+    float: left;
+    margin-left: 23.88345%; }
+  .project {
+    background-color: #F5D2CC;
+    padding: 2%;
+    margin-top: 1%;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+    margin-left: 12.79471%;
+    text-decoration: none; }
+    .project:last-child {
+      margin-right: 0; }
+  .project-name {
+    padding: 7px; }
+    .project-name .project-link {
+      color: #000000;
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 600;
+      font-size: 28px;
+      margin-left: 7px; }
+  .project-img {
+    float: left;
+    border: 1px dashed green;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 91.4702%;
+    margin-left: 4.2649%;
+    margin-bottom: 10px; }
+    .project-img:last-child {
+      margin-right: 0; }
+  .flower-screenshot {
+    width: 100%;
+    height: auto; }
+  a.site-link:hover {
+    opacity: 0.75;
+    transition: 200ms;
+    webkit-transition: 200ms; }
+  .project-info {
+    padding: 1px;
+    float: left;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 1px dashed black;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 91.4702%;
+    margin-left: 4.2649%; }
+    .project-info:last-child {
+      margin-right: 0; }
+    .project-info .icon-small {
+      padding: 3px 1px 3px 3px; }
+      .project-info .icon-small .project-icon {
+        color: #414141; }
+      .project-info .icon-small .link-info {
+        font-weight: 300;
+        font-size: 14px;
+        color: #414141;
+        margin-bottom: 2px; }
+  a.project-link:hover {
+    text-decoration: none !important;
+    color: #414141 !important;
+    text-shadow: 1px 1px 0.5px #FFFFFF !important;
+    transition: 300ms;
+    webkit-transition: 300ms; }
+    a.project-link:hover .icon-small {
+      padding: 0;
+      text-shadow: 1px 1px 0.5px #FFFFFF !important;
+      font-size: 10px;
+      transition: 300ms;
+      webkit-transition: 300ms; }
+      a.project-link:hover .icon-small .project-icon {
+        color: #414141 !important;
+        text-shadow: 1px 1px 0.5px #FFFFFF !important;
+        font-size: 10px;
+        transition: 300ms;
+        webkit-transition: 300ms; }
+      a.project-link:hover .icon-small .link-info {
+        font-weight: 400 !important;
+        font-size: 17px !important;
+        color: #414141 !important;
+        text-shadow: 1px 1px 0.5px #FFFFFF !important;
+        transition: 300ms;
+        webkit-transition: 300ms; } }
+
+@media all and (max-width: 350px) {
+  .inspect-fox {
+    margin-left: 15.35365%; }
+  .portfolio-spacer {
+    margin-top: 3%; }
+  .project-info {
+    padding: 1px;
+    float: left;
+    font-size: 11px;
+    line-height: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 1px dashed black;
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 95.7351%;
+    margin-left: 2.13245%; }
+    .project-info:last-child {
+      margin-right: 0; }
+    .project-info .icon-small {
+      padding: 3px 1px 3px 3px; }
+      .project-info .icon-small .project-icon {
+        color: #414141; }
+      .project-info .icon-small .link-info {
+        font-weight: 300;
+        font-size: 13px;
+        color: #414141;
+        margin-bottom: 2px; } }
+
 .social-icons h4 {
   display: inline-block;
   margin: 20px 10px 0 0; }
