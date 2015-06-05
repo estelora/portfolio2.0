@@ -796,7 +796,7 @@ a.nav:hover {
   a.nav {
     text-decoration: none;
     color: #414141;
-    font-size: 14px;
+    font-size: 16px;
     text-align: right;
     font-weight: 300;
     float: right;
@@ -808,7 +808,7 @@ a.nav:hover {
     a.nav:last-child {
       margin-right: 0; }
   a.nav:hover {
-    font-size: 14px !important; }
+    font-size: 18px !important; }
   .hero {
     overflow-y: scroll;
     padding-top: 5% !important;
