@@ -26,121 +26,66 @@
 
 @media all and (max-width:1000px) {
   .head {
-   font-family: $display;
    font-size: 45px;
-   color: $white;
    line-height: 50px;
-   margin-left: 1%;
-   margin-bottom: 3%;
   }
 
   .copy {
     font-size: 28px;
-    font-weight: $light;
-    font-family: $sans-serif;
     margin: 7% 18% 0;
     line-height: 38px;
-    background-color: $neutral-light;
-    -webkit-box-shadow: $default-img-shadow-safari;
-    -moz-box-shadow: $default-img-shadow-moz;
-    box-shadow: $default-img-shadow-chrome;
-    @include pad();
   }
 }
 
 @media all and (max-width:900px) {
   .head {
-   font-family: $display;
    font-size: 50px;
-   color: $white;
    line-height: 55px;
-   margin-left: 1%;
-   margin-bottom: 3%;
   }
-
   .copy {
     font-size: 29px;
-    font-weight: $light;
-    font-family: $sans-serif;
     margin: 8% 15% 0;
-    line-height: 38px;
-    background-color: $neutral-light;
-    -webkit-box-shadow: $default-img-shadow-safari;
-    -moz-box-shadow: $default-img-shadow-moz;
-    box-shadow: $default-img-shadow-chrome;
-    @include pad();
   }
 }
 
 @media all and (max-width:775px) {
   .head {
-   font-family: $display;
    font-size: 48px;
-   color: $white;
    line-height: 53px;
-   margin-left: 1%;
-   margin-bottom: 3%;
   }
 
   .copy {
-    font-size: 28px;
-    font-weight: $light;
-    font-family: $sans-serif;
     margin: 11% 12% 0;
     line-height: 36px;
-    background-color: $neutral-light;
-    -webkit-box-shadow: $default-img-shadow-safari;
-    -moz-box-shadow: $default-img-shadow-moz;
-    box-shadow: $default-img-shadow-chrome;
-    @include pad(3%);
-  }
+    padding: 3%;
+    }
 }
 
 @media all and (max-width:650px) {
   .head {
-   font-family: $display;
    font-size: 40px;
-   color: $white;
    line-height: 45px;
-   margin-left: 1%;
-   margin-bottom: 3%;
   }
 
   .copy {
     font-size: 30px;
-    font-weight: $light;
-    font-family: $sans-serif;
     margin: 13% 9% 0;
     line-height: 33px;
     background-color: $neutral-light;
-    -webkit-box-shadow: $default-img-shadow-safari;
-    -moz-box-shadow: $default-img-shadow-moz;
-    box-shadow: $default-img-shadow-chrome;
-    @include pad(3%);
   }
 }
 
 @media all and (max-width:600px) {
   .head {
-   font-family: $display;
    font-size: 35px;
-   color: $white;
    line-height: 40px;
-   margin-left: 1%;
-   margin-bottom: 3%;
   }
 
   .copy {
     font-size: 28px;
-    font-weight: $light;
-    font-family: $sans-serif;
     margin: 12% 10% 0;
     line-height: 32px;
-    background-color: $neutral-light;
-    -webkit-box-shadow: $default-img-shadow-safari;
-    -moz-box-shadow: $default-img-shadow-moz;
-    box-shadow: $default-img-shadow-chrome;
-    @include pad(4%);
+    padding: 4%;
   }
 }
 

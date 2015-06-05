@@ -1003,102 +1003,48 @@ a.nav:hover {
 \*------------------------------------*/
 @media all and (max-width: 1000px) {
   .head {
-    font-family: 'Londrina Solid', cursive;
     font-size: 45px;
-    color: #FFFFFF;
-    line-height: 50px;
-    margin-left: 1%;
-    margin-bottom: 3%; }
+    line-height: 50px; }
   .copy {
     font-size: 28px;
-    font-weight: 300;
-    font-family: 'Josefin Sans', sans-serif;
     margin: 7% 18% 0;
-    line-height: 38px;
-    background-color: #ff6e24;
-    -webkit-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-    box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-    padding: 2.35765%; } }
+    line-height: 38px; } }
 
 @media all and (max-width: 900px) {
   .head {
-    font-family: 'Londrina Solid', cursive;
     font-size: 50px;
-    color: #FFFFFF;
-    line-height: 55px;
-    margin-left: 1%;
-    margin-bottom: 3%; }
+    line-height: 55px; }
   .copy {
     font-size: 29px;
-    font-weight: 300;
-    font-family: 'Josefin Sans', sans-serif;
-    margin: 8% 15% 0;
-    line-height: 38px;
-    background-color: #ff6e24;
-    -webkit-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-    box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-    padding: 2.35765%; } }
+    margin: 8% 15% 0; } }
 
 @media all and (max-width: 775px) {
   .head {
-    font-family: 'Londrina Solid', cursive;
     font-size: 48px;
-    color: #FFFFFF;
-    line-height: 53px;
-    margin-left: 1%;
-    margin-bottom: 3%; }
+    line-height: 53px; }
   .copy {
-    font-size: 28px;
-    font-weight: 300;
-    font-family: 'Josefin Sans', sans-serif;
     margin: 11% 12% 0;
     line-height: 36px;
-    background-color: #ff6e24;
-    -webkit-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-    box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
     padding: 3%; } }
 
 @media all and (max-width: 650px) {
   .head {
-    font-family: 'Londrina Solid', cursive;
     font-size: 40px;
-    color: #FFFFFF;
-    line-height: 45px;
-    margin-left: 1%;
-    margin-bottom: 3%; }
+    line-height: 45px; }
   .copy {
     font-size: 30px;
-    font-weight: 300;
-    font-family: 'Josefin Sans', sans-serif;
     margin: 13% 9% 0;
     line-height: 33px;
-    background-color: #ff6e24;
-    -webkit-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-    box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-    padding: 3%; } }
+    background-color: #ff6e24; } }
 
 @media all and (max-width: 600px) {
   .head {
-    font-family: 'Londrina Solid', cursive;
     font-size: 35px;
-    color: #FFFFFF;
-    line-height: 40px;
-    margin-left: 1%;
-    margin-bottom: 3%; }
+    line-height: 40px; }
   .copy {
     font-size: 28px;
-    font-weight: 300;
-    font-family: 'Josefin Sans', sans-serif;
     margin: 12% 10% 0;
     line-height: 32px;
-    background-color: #ff6e24;
-    -webkit-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
-    box-shadow: 3px 3px 1px -2px rgba(0, 0, 0, 0.75);
     padding: 4%; } }
 
 @media all and (max-width: 500px) {
