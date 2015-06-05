@@ -1,3 +1,4 @@
+
 /*------------------------------------*\
     #INDEX
 \*------------------------------------*/
@@ -201,7 +202,6 @@ a.nav:hover {
   box-shadow: $default-img-shadow-chrome;
 }
 
-
 /*------------------------------------*\
     #INDEX MEDIA QUERIES
 \*------------------------------------*/
@@ -212,18 +212,13 @@ a.nav:hover {
     padding-top: 2%;
   }
   .story-curious {
-    padding: 1em 0.5em 0 1.75em;
     @include span-columns(3.25);
-    @include shift(.18);
-    @include omega;
     .tagline {
       @include shift(-.5);
     }
   }
   .story-travel {
-    @include span-columns(4.4);
-    @include shift(.18);
-    @include omega;
+    @include span-columns(4.4);\
     .tagline {
       @include shift(-.5);
     }

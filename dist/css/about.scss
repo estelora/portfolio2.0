@@ -1,10 +1,10 @@
 .head {
- font-family: $display;
- font-size: 50px;
- color: $white;
- line-height: 60px;
- margin-left: 1%;
- margin-bottom: 3%;
+  font-family: $display;
+  font-size: 50px;
+  color: $white;
+  line-height: 60px;
+  margin-left: 1%;
+  margin-bottom: 3%;
 }
 
 .copy {
@@ -21,13 +21,13 @@
 }
 
 /*------------------------------------*\
-    #ABOUT MEDIA QUERIES
+#ABOUT MEDIA QUERIES
 \*------------------------------------*/
 
 @media all and (max-width:1000px) {
   .head {
-   font-size: 45px;
-   line-height: 50px;
+    font-size: 45px;
+    line-height: 50px;
   }
 
   .copy {
@@ -39,8 +39,8 @@
 
 @media all and (max-width:900px) {
   .head {
-   font-size: 50px;
-   line-height: 55px;
+    font-size: 50px;
+    line-height: 55px;
   }
   .copy {
     font-size: 29px;
@@ -50,21 +50,21 @@
 
 @media all and (max-width:775px) {
   .head {
-   font-size: 48px;
-   line-height: 53px;
+    font-size: 48px;
+    line-height: 53px;
   }
 
   .copy {
     margin: 11% 12% 0;
     line-height: 36px;
     padding: 3%;
-    }
+  }
 }
 
 @media all and (max-width:650px) {
   .head {
-   font-size: 40px;
-   line-height: 45px;
+    font-size: 40px;
+    line-height: 45px;
   }
 
   .copy {
@@ -77,8 +77,8 @@
 
 @media all and (max-width:600px) {
   .head {
-   font-size: 35px;
-   line-height: 40px;
+    font-size: 35px;
+    line-height: 40px;
   }
 
   .copy {
@@ -91,48 +91,25 @@
 
 @media all and (max-width:500px) {
   .head {
-   font-family: $display;
-   font-size: 31px;
-   color: $white;
-   line-height: 38px;
-   margin-left: 1%;
-   margin-bottom: 3%;
+    font-size: 31px;
+    line-height: 38px;
   }
 
   .copy {
     font-size: 22px;
-    font-weight: $light;
-    font-family: $sans-serif;
     margin: 15% 8% 0;
     line-height: 32px;
-    background-color: $neutral-light;
-    -webkit-box-shadow: $default-img-shadow-safari;
-    -moz-box-shadow: $default-img-shadow-moz;
-    box-shadow: $default-img-shadow-chrome;
-    @include pad(4%);
   }
 }
 
 @media all and (max-width:400px) {
   .head {
-   font-family: $display;
-   font-size: 24px;
-   color: $white;
-   line-height: 30px;
-   margin-left: 1%;
-   margin-bottom: 3%;
+    font-size: 24px;
+    line-height: 30px;
   }
-
   .copy {
     font-size: 18px;
-    font-weight: $light;
-    font-family: $sans-serif;
     margin: 15% 8% 0;
     line-height: 26px;
-    background-color: $neutral-light;
-    -webkit-box-shadow: $default-img-shadow-safari;
-    -moz-box-shadow: $default-img-shadow-moz;
-    box-shadow: $default-img-shadow-chrome;
-    @include pad(4%);
   }
 }
