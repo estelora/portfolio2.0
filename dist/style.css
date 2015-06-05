@@ -196,7 +196,7 @@ a:active {
   background-color: #F5D2CC;
   background-image: url("images/ricepaper2.png");
   padding: 1%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
   -webkit-box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.5);
@@ -352,6 +352,9 @@ a.nav:hover {
     width: 90%;
     height: auto;
     background-color: #FFFFFF; }
+
+.story-curious:last-child {
+  margin-bottom: 6em !important; }
 
 .story-travel {
   padding: 1em 0 0 1.5em;
