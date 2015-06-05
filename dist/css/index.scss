@@ -324,7 +324,6 @@ a.nav:hover {
 
   a.contact-spacing:hover {
     @include shift(.12);
-
     .contact-copy {
       font-size: 16px;
     }
@@ -337,23 +336,12 @@ a.nav:hover {
     font-size: 50px;
     padding-top: 3px;
   }
-  .role {
-    font-size: 16px;
-    letter-spacing: 0.05px;
-    padding-top: 3px;
-  }
   .hero {
     padding-top: 3%;
   }
   .story-curious {
-    padding: 1em 0em 0 1.5em;
+    padding: 1em 0em 0 1.85em;
     @include shift(2.5);
-
-    .tagline {
-      font-size: 20px;
-      padding-top: .5em;
-      @include shift(-1);
-    }
   }
   .story-travel {
     padding: 1em 0 0 2.5em;
