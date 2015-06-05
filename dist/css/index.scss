@@ -446,13 +446,8 @@ a.nav:hover {
       font-size: 14px !important;
       font-weight: $thin;
     }
-  .info-header {
-    height: 90px;
-    padding: 0.4%;
-  }
+
   .title {
-    font-family: $sans-serif;
-    padding-left: 1em;
     letter-spacing: -1px;
     @include span-columns(6);
     @include shift(.1);
@@ -470,40 +465,17 @@ a.nav:hover {
     font-size: 24px;
   }
   .hero {
-    overflow-y: scroll;
-    padding-top: 3.5%;
-    margin-left: 0 !important;
+    padding-top: 2.5%;
   }
   .story-curious {
-    padding: 1em 0em 0 1.5em;
-    margin-bottom: 1.5em;
+    padding: 1em 0em 0 2em;
     @include shift(.8);
     @include span-columns(8);
-    @include omega;
-
-    .story-pic {
-      width: 90%;
-      height: auto;
-      background-color: $white;
-    }
-    .tagline {
-      font-size: 18px;
-      padding-top: .7em;
-      @include shift(-1);
-    }
   }
   .story-travel {
     padding: 1em 0 0 2em;
-    margin-bottom: 1.5em;
-    background-color: $neutral-light;
     @include span-columns(9);
     @include shift(1.45);
-    @include omega;
-    .tagline {
-      font-size: 18px;
-      padding-top: .7em;
-      @include shift(-1);
-    }
   }
 }
 

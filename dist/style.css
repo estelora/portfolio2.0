@@ -585,12 +585,7 @@ a.nav:hover {
   .contact-copy {
     font-size: 14px !important;
     font-weight: 100; }
-  .info-header {
-    height: 90px;
-    padding: 0.4%; }
   .title {
-    font-family: 'Josefin Sans', sans-serif;
-    padding-left: 1em;
     letter-spacing: -1px;
     float: left;
     display: block;
@@ -613,44 +608,25 @@ a.nav:hover {
   a.nav:hover {
     font-size: 24px; }
   .hero {
-    overflow-y: scroll;
-    padding-top: 3.5%;
-    margin-left: 0 !important; }
+    padding-top: 2.5%; }
   .story-curious {
-    padding: 1em 0em 0 1.5em;
-    margin-bottom: 1.5em;
+    padding: 1em 0em 0 2em;
     margin-left: 16.93624%;
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 65.88078%;
-    margin-right: 0; }
+    width: 65.88078%; }
     .story-curious:last-child {
       margin-right: 0; }
-    .story-curious .story-pic {
-      width: 90%;
-      height: auto;
-      background-color: #FFFFFF; }
-    .story-curious .tagline {
-      font-size: 18px;
-      padding-top: .7em;
-      margin-left: -8.5298%; }
   .story-travel {
     padding: 1em 0 0 2em;
-    margin-bottom: 1.5em;
-    background-color: #ff6e24;
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 74.41059%;
-    margin-left: 12.36822%;
-    margin-right: 0; }
+    margin-left: 12.36822%; }
     .story-travel:last-child {
-      margin-right: 0; }
-    .story-travel .tagline {
-      font-size: 18px;
-      padding-top: .7em;
-      margin-left: -8.5298%; } }
+      margin-right: 0; } }
 
 @media all and (max-width: 500px) {
   .footer {
