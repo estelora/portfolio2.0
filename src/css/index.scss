@@ -81,7 +81,7 @@ a.contact-spacing:hover {
   height: 110px;
   background-color: $white;
   background-image: url("images/ricepaper2.png");
-  padding: 0.358%;
+  padding: 0.36%;
   -webkit-box-shadow: $default-shadow-safari;
   -moz-box-shadow: $default-shadow-moz;
   box-shadow: $default-shadow;
@@ -251,67 +251,26 @@ a.nav:hover {
 @media all and (max-width:825px) {
   .footer {
     height: 95px;
-    font-family: $sans-serif;
-    background-color: $blush;
-    background-image: url("images/ricepaper2.png");
-    padding: 1%;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    -webkit-box-shadow: $top-shadow-safari;
-    -moz-box-shadow: $top-shadow-moz;
-    box-shadow: $top-shadow;
   }
   .footer-fox {
     width: 80px;
-    height: 100%;
-    float: left;
     margin-left: 0.5%;
   }
   .contact {
-    margin-top: 2.25%;
     .contact-spacing {
       @include shift(.15);
     }
-    .contact-icon {
-      color: $neutral-light;
-    }
     .contact-copy {
-      color: $dark-gray;
-      font-weight: $normal;
       font-size: 18px;
     }
   }
   a.contact-spacing:hover {
-    @include shift(.2);
-    .contact-icon {
-      color: $neutral-light;
-      text-shadow: $contact-hover-shadow;
-      transition: 50ms;
-      -webkit-transition: 50ms;
-    }
     .contact-copy {
-      color: $black;
-      transition: 50ms;
-      -webkit-transition: 50ms;
       font-size: 18px;
     }
   }
   .info-header {
     height: 100px;
-    background-color: $white;
-    background-image: url("images/ricepaper2.png");
-    padding: 0.358%;
-    -webkit-box-shadow: $default-shadow-safari;
-    -moz-box-shadow: $default-shadow-moz;
-    box-shadow: $default-shadow;
-  }
-  .title {
-    font-family: $sans-serif;
-    padding-left: 1em;
-    letter-spacing: -1px;
-    @include span-columns(5);
-    @include shift(.1);
   }
   .name {
     font-size: 56px;
@@ -332,29 +291,18 @@ a.nav:hover {
     margin-bottom: 1.5em;
     @include shift(2.65);
     @include span-columns(6);
-    @include omega;
 
-    .story-pic {
-      width: 90%;
-      height: auto;
-      background-color: $white;
-    }
     .tagline {
-      font-size: 20px;
-      padding-top: .5em;
-      @include shift(-1);
+      font-size: 20px
     }
   }
   .story-travel {
     padding: 1em 0 0 1.5em;
     margin-bottom: 1.5em;
-    background-color: $neutral-light;
     @include span-columns(9);
     @include shift(1.1);
-    @include omega;
     .tagline {
       font-size: 20px;
-      @include shift(-1);
     }
   }
 }
