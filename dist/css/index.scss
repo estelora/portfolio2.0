@@ -366,12 +366,11 @@ a.nav:hover {
       @include shift(-.1);
     }
     .contact-copy {
-      font-size: 10px;
+      font-size: 12px;
     }
 
   a.contact-spacing:hover {
     .contact-copy {
-      color: $black;
     }
   }
   .info-header {
@@ -379,9 +378,7 @@ a.nav:hover {
     padding: 0.4%;
   }
   .title {
-    font-family: $sans-serif;
     padding-left: 1em;
-    letter-spacing: -1px;
     @include span-columns(5.7);
     @include shift(.1);
   }
@@ -402,30 +399,23 @@ a.nav:hover {
     @include span-columns(5);
   }
   a.nav {
-    text-decoration: none;
-    color: $dark-gray;
     font-size: 20px;
-    text-align: right;
   }
   a.nav:hover {
     font-size: 24px;
   }
   .hero {
-    overflow-y: scroll;
     padding-top: 3.5%;
     margin-left: 0 !important;
   }
   .story-curious {
-    padding: 1em 0 0 1.5em;
-    margin-bottom: 1.5em;
-    @include shift(3);
     .tagline {
       font-size: 18px;
       padding-top: .7em;
     }
   }
   .story-travel {
-    padding: 1em 0 0 2em;
+    padding: 1em 0 0 2.75em;
     @include shift(1.5);
     .tagline {
       font-size: 18px;

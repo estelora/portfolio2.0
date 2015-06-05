@@ -522,16 +522,12 @@ a.nav:hover {
   .contact-spacing {
     margin-left: -0.85298%; }
   .contact-copy {
-    font-size: 10px; }
-  a.contact-spacing:hover .contact-copy {
-    color: #000000; }
+    font-size: 12px; }
   .info-header {
     height: 90px;
     padding: 0.4%; }
   .title {
-    font-family: 'Josefin Sans', sans-serif;
     padding-left: 1em;
-    letter-spacing: -1px;
     float: left;
     display: block;
     margin-right: 2.35765%;
@@ -558,25 +554,17 @@ a.nav:hover {
     .site-nav:last-child {
       margin-right: 0; }
   a.nav {
-    text-decoration: none;
-    color: #414141;
-    font-size: 20px;
-    text-align: right; }
+    font-size: 20px; }
   a.nav:hover {
     font-size: 24px; }
   .hero {
-    overflow-y: scroll;
     padding-top: 3.5%;
     margin-left: 0 !important; }
-  .story-curious {
-    padding: 1em 0 0 1.5em;
-    margin-bottom: 1.5em;
-    margin-left: 25.58941%; }
-    .story-curious .tagline {
-      font-size: 18px;
-      padding-top: .7em; }
+  .story-curious .tagline {
+    font-size: 18px;
+    padding-top: .7em; }
   .story-travel {
-    padding: 1em 0 0 2em;
+    padding: 1em 0 0 2.75em;
     margin-left: 12.79471%; }
     .story-travel .tagline {
       font-size: 18px;
