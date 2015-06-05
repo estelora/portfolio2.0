@@ -218,7 +218,7 @@ a.nav:hover {
     }
   }
   .story-travel {
-    @include span-columns(4.4);\
+    @include span-columns(4.4);
     .tagline {
       @include shift(-.5);
     }
@@ -232,22 +232,17 @@ a.nav:hover {
   }
   .story-curious {
     @include span-columns(3.4);
-    @include shift(.18);
-    @include omega;
     .tagline {
-      font-size: 20px;
+      font-size: 18px;
       padding-top: .5em;
       @include shift(-1);
     }
   }
   .story-travel {
-    padding: 1em 0 0 1.5em;
-    background-color: $neutral-light;
     @include span-columns(4.5);
-    @include shift(.18);
-    @include omega;
     .tagline {
-      font-size: 20px;
+      padding-top: .5em;
+      font-size: 18px;
       @include shift(-1);
     }
   }

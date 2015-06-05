@@ -404,8 +404,7 @@ a.nav:hover {
     width: 35.17349%; }
     .story-travel:last-child {
       margin-right: 0; }
-    .story-travel \
- .tagline {
+    .story-travel .tagline {
       margin-left: -4.2649%; } }
 
 @media all and (max-width: 920px) {
@@ -416,28 +415,23 @@ a.nav:hover {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 26.64368%;
-    margin-left: 1.53536%;
-    margin-right: 0; }
+    width: 26.64368%; }
     .story-curious:last-child {
       margin-right: 0; }
     .story-curious .tagline {
-      font-size: 20px;
+      font-size: 18px;
       padding-top: .5em;
       margin-left: -8.5298%; }
   .story-travel {
-    padding: 1em 0 0 1.5em;
-    background-color: #ff6e24;
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 36.02647%;
-    margin-left: 1.53536%;
-    margin-right: 0; }
+    width: 36.02647%; }
     .story-travel:last-child {
       margin-right: 0; }
     .story-travel .tagline {
-      font-size: 20px;
+      padding-top: .5em;
+      font-size: 18px;
       margin-left: -8.5298%; } }
 
 @media all and (max-width: 825px) {
