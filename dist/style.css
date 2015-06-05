@@ -629,19 +629,20 @@ a.nav:hover {
       margin-right: 0; } }
 
 @media all and (max-width: 500px) {
-  .footer {
-    height: 80px;
-    padding: 1%; }
   .footer-fox {
-    width: 0px;
-    height: 0px;
-    margin-top: 0px; }
+    width: 30px;
+    height: 30px;
+    margin-top: 4%; }
   .contact {
     margin-top: 6%; }
   .fa-2x {
     font-size: 1em !important; }
-  .contact-copy {
+  .resume-copy {
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 14px !important;
+    color: #000000 !important; }
+  .contact-copy {
+    font-size: 0px !important;
     font-weight: 100; }
   a.contact-spacing:hover .contact-copy {
     color: #000000; }
@@ -681,7 +682,7 @@ a.nav:hover {
   a.nav {
     text-decoration: none;
     color: #414141;
-    font-size: 16px;
+    font-size: 20px;
     text-align: right;
     font-weight: 300;
     float: right;

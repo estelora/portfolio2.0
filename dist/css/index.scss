@@ -480,14 +480,11 @@ a.nav:hover {
 }
 
 @media all and (max-width: 500px) {
-  .footer {
-    height: 80px;
-    padding: 1%;
-  }
+
   .footer-fox {
-    width: 0px;
-    height: 0px;
-    margin-top: 0px;
+    width: 30px;
+    height: 30px;
+    margin-top: 4%;
   }
   .contact {
     margin-top:6%;
@@ -495,11 +492,13 @@ a.nav:hover {
   .fa-2x {
     font-size: 1em !important;
   }
-    .contact-spacing {
-
-    }
+  .resume-copy{
+    font-family: $sans-serif;
+    font-size: 14px !important;
+    color: $black !important;
+  }
     .contact-copy {
-      font-size: 14px !important;
+      font-size: 0px !important;
       font-weight: $thin;
     }
 
@@ -539,7 +538,7 @@ a.nav:hover {
   a.nav {
     text-decoration: none;
     color: $dark-gray;
-    font-size: 16px;
+    font-size: 20px;
     text-align: right;
     font-weight: $light;
     float: right;
