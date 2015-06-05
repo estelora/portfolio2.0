@@ -441,18 +441,11 @@ a.nav:hover {
     font-size: 1.5em !important;
   }
     .contact-spacing {
-
     }
     .contact-copy {
       font-size: 14px !important;
       font-weight: $thin;
     }
-
-  a.contact-spacing:hover {
-    .contact-copy {
-      color: $black;
-    }
-  }
   .info-header {
     height: 90px;
     padding: 0.4%;
@@ -469,27 +462,9 @@ a.nav:hover {
     letter-spacing: 0 !important;
     padding-top: 10px;
   }
-    .role {
-    font-size: 16px;
-    letter-spacing: 0.03px;
-    padding-top: 2px;
-  }
-  .site-nav {
-    margin-top: 40px;
-    font-family: $sans-serif;
-    float: right !important;
-    padding-right: 1em;
-    @include span-columns(5);
-  }
+
   a.nav {
-    text-decoration: none;
-    color: $dark-gray;
-    font-size: 20px;
-    text-align: right;
-    font-weight: $light;
-    float: right;
     @include span-columns(2.4 of 5);
-    @include omega;
   }
   a.nav:hover {
     font-size: 24px;

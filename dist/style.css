@@ -585,8 +585,6 @@ a.nav:hover {
   .contact-copy {
     font-size: 14px !important;
     font-weight: 100; }
-  a.contact-spacing:hover .contact-copy {
-    color: #000000; }
   .info-header {
     height: 90px;
     padding: 0.4%; }
@@ -605,33 +603,11 @@ a.nav:hover {
     font-size: 40px;
     letter-spacing: 0 !important;
     padding-top: 10px; }
-  .role {
-    font-size: 16px;
-    letter-spacing: 0.03px;
-    padding-top: 2px; }
-  .site-nav {
-    margin-top: 40px;
-    font-family: 'Josefin Sans', sans-serif;
-    float: right !important;
-    padding-right: 1em;
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 40.29137%; }
-    .site-nav:last-child {
-      margin-right: 0; }
   a.nav {
-    text-decoration: none;
-    color: #414141;
-    font-size: 20px;
-    text-align: right;
-    font-weight: 300;
-    float: right;
     float: left;
     display: block;
     margin-right: 5.85151%;
-    width: 44.95722%;
-    margin-right: 0; }
+    width: 44.95722%; }
     a.nav:last-child {
       margin-right: 0; }
   a.nav:hover {
@@ -922,7 +898,7 @@ a.nav:hover {
     line-height: 50px; }
   .copy {
     font-size: 28px;
-    margin: 7% 18% 0;
+    margin: 2% 14% 0;
     line-height: 38px; } }
 
 @media all and (max-width: 900px) {
@@ -931,14 +907,14 @@ a.nav:hover {
     line-height: 55px; }
   .copy {
     font-size: 29px;
-    margin: 8% 15% 0; } }
+    margin: 2% 10% 0; } }
 
 @media all and (max-width: 775px) {
   .head {
     font-size: 48px;
     line-height: 53px; }
   .copy {
-    margin: 11% 12% 0;
+    margin: 4% 11% 0;
     line-height: 36px;
     padding: 3%; } }
 
@@ -948,7 +924,7 @@ a.nav:hover {
     line-height: 45px; }
   .copy {
     font-size: 30px;
-    margin: 13% 9% 0;
+    margin: 4% 9% 0;
     line-height: 33px;
     background-color: #ff6e24; } }
 
@@ -958,7 +934,7 @@ a.nav:hover {
     line-height: 40px; }
   .copy {
     font-size: 28px;
-    margin: 12% 10% 0;
+    margin: 3% 10% 0;
     line-height: 32px;
     padding: 4%; } }
 
@@ -968,16 +944,16 @@ a.nav:hover {
     line-height: 38px; }
   .copy {
     font-size: 22px;
-    margin: 15% 8% 0;
+    margin: 5% 8% 0;
     line-height: 32px; } }
 
 @media all and (max-width: 400px) {
   .head {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 30px; }
   .copy {
     font-size: 18px;
-    margin: 15% 8% 0;
+    margin: 8% 11% 0;
     line-height: 26px; } }
 
 /*------------------------------------*\
